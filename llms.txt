@@ -1,6 +1,6 @@
 # Calisqa Software
 
-> Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Sloganı: "Çalışan siteler." Kurucusu Taha Çalışkan'dır; Taha Çalışkan, Calisqa Software ve AirviewTR'ın kurucusudur.
+> Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Sloganı: "Çalışan siteler." Kurucusu Taha Çalışkan'dır; Taha Çalışkan, Calisqa Software ve AirviewTR'ın kurucusudur. Kurucu profili: https://calisqa.com/taha-caliskan
 
 ## İletişim
 - WhatsApp ve telefon: +90 501 346 65 60
