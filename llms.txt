@@ -32,6 +32,7 @@
 - [Birecik Sofrası](https://calisqa.com/demo/birecik-sofrasi/): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
 
 ## Sık sorulan sorular
+- Calisqa nedir, calisqa.com kimin sitesi? calisqa.com, Gaziantep merkezli web tasarım ve yazılım stüdyosu Calisqa Software'in resmî web sitesidir. Calisqa, Taha Çalışkan tarafından kuruldu; adı yazımı Calisqa'dır (çalışkan değil).
 - Calisqa Software nedir? Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Kurucusu Taha Çalışkan'dır.
 - Calisqa hangi hizmetleri veriyor? İşletme web siteleri, menü ve ürün katalogları, WhatsApp sipariş ve rezervasyon akışları, işletmeye özel marka kiti, SEO ve GEO (yapay zekâ arama optimizasyonu), yayına alma ve bakım.
 - "Çalışan site" ne demek? Butonları gerçekten iş gören site demek: sepet siparişi WhatsApp mesajına dönüştürür, formlar eksik bilgiyi yakalar, çalışma saatine göre "şu an açık" yazar, harita yol tarifi verir ve site Google'da bulunur. Görüntüden ibaret bir broşür değil.
