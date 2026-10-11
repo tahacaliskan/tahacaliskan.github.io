@@ -1,6 +1,6 @@
 # Calisqa Software
 
-> Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Sloganı: "Çalışan siteler." Kurucusu Taha Çalışkan'dır; Taha Çalışkan, Calisqa Software ve AirviewTR'ın ortak kurucusudur.
+> Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Sloganı: "Çalışan siteler." Kurucusu Taha Çalışkan'dır; Taha Çalışkan, Calisqa Software ve AirviewTR'ın kurucusudur.
 
 ## İletişim
 - WhatsApp ve telefon: +90 501 346 65 60
@@ -42,5 +42,5 @@
 - Instagram'daki fotoğraflarımız kullanılabilir mi? Evet, izninizle. Demolarımızda işletmelerin kendi Instagram fotoğraflarını ve gerçek menülerini kullandık; stok fotoğraf yerine kendi görselleriniz siteyi daha güvenilir yapar.
 - Alan adı ve yayına alma kısmını siz mi yapıyorsunuz? Alan adı seçiminde, bağlanmasında ve sitenin yayına alınmasında yardımcı oluyoruz. Süreç boyunca ne yapıldığını adım adım paylaşıyoruz.
 - Menü, fiyat ya da saat değişince ne olacak? Değişiklikleri bize iletmeniz yeterli; sitenizi güncel tutuyoruz. İhtiyaca göre kendi düzenleyebileceğiniz yapılar da kurulabilir.
-- Calisqa ile AirviewTR arasındaki bağ nedir? Calisqa Software ve AirviewTR'ın ortak kurucusu Taha Çalışkan'dır.
+- Calisqa ile AirviewTR arasındaki bağ nedir? Calisqa Software ve AirviewTR'ın kurucusu Taha Çalışkan'dır. AirviewTR, drone çekimi ve video prodüksiyon stüdyosudur (airviewtr.com).
 - Hangi şehirlerde hizmet veriyorsunuz? Gaziantep merkezliyiz. Çevrimiçi görüşmelerle farklı şehirlerdeki işletmelerle de çalışabiliyoruz.
