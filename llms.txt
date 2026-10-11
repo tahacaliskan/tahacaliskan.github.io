@@ -1,0 +1,46 @@
+# Calisqa Software
+
+> Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Sloganı: "Çalışan siteler." Kurucusu Taha Çalışkan'dır; Taha Çalışkan, Calisqa Software ve AirviewTR'ın ortak kurucusudur.
+
+## İletişim
+- WhatsApp ve telefon: +90 501 346 65 60
+- E-posta: taha@calisqa.com
+- Konum: Gaziantep, Türkiye
+- Site: https://tahacaliskan.github.io/
+
+## Hizmetler
+- İşletme web siteleri (restoran, kafe, pastane, manav, hizmet işletmeleri)
+- WhatsApp sipariş, masa ve grup rezervasyonu, talep formları
+- SEO ve GEO (schema.org, site haritası, llms.txt, açık cevaplı içerik)
+- İşletmeye özel marka kiti (renk, yazı karakteri, desen)
+- Menü ve ürün katalogu, yayın ve bakım, özel yazılım
+
+## Sayfalar
+- [Ana sayfa](https://tahacaliskan.github.io/)
+- [Hizmetler](https://tahacaliskan.github.io/hizmetler.html)
+- [Çalışmalar](https://tahacaliskan.github.io/calismalar.html)
+- [Hakkımızda](https://tahacaliskan.github.io/hakkimizda.html)
+- [Sık sorulan sorular](https://tahacaliskan.github.io/sss.html)
+- [İletişim](https://tahacaliskan.github.io/iletisim.html)
+
+## Çalışmalar (demo siteler, Gaziantep Güvenevler)
+- [Usta Tavacı](https://tahacaliskan.github.io/guvenevler/usta-tavaci/): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
+- [Namık Baydar Sofrası](https://tahacaliskan.github.io/guvenevler/namik-baydar-sofrasi/): Antep ev yemekleri lokantası, 6 sayfa. Türkçe ve İngilizce lezzet rehberi; 350 kişilik salon için grup rezervasyon formu; 56 ürünlük menü ve WhatsApp sipariş; Dama karo desenli marka kiti
+- [Pralin Bakery](https://tahacaliskan.github.io/guvenevler/pralin-bakery/): Pastane ve kahvaltı, 5 sayfa. 136 ürünlük menü, 15 kategori; Kutlama pastası sipariş formu; Ahududu, fıstık ve karamel renk sistemi; Dantel fistonlu desen dili
+- [Akla Restaurant](https://tahacaliskan.github.io/guvenevler/akla-restaurant/): Restoran, kahvaltı ve canlı müzik, 5 sayfa. Masa rezervasyon formu; Haftalık sahne ve etkinlik takvimi; Kahvaltıdan geceye günün saatleri; İncir yaprağı desenli marka kiti
+- [Sofdağı Manav](https://tahacaliskan.github.io/guvenevler/sofdagi-manav/): Manav ve market, 4 sayfa. Günlük fiyatlı ürün listesi ve sepet; Gel al ya da adrese teslim seçimi; Manav tentesi ve domates sırası deseni; Reyon kısayolları
+- [Birecik Sofrası](https://tahacaliskan.github.io/guvenevler/birecik-sofrasi/): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
+
+## Sık sorulan sorular
+- Calisqa Software nedir? Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Kurucusu Taha Çalışkan'dır.
+- Calisqa hangi hizmetleri veriyor? İşletme web siteleri, menü ve ürün katalogları, WhatsApp sipariş ve rezervasyon akışları, işletmeye özel marka kiti, SEO ve GEO (yapay zekâ arama optimizasyonu), yayına alma ve bakım.
+- "Çalışan site" ne demek? Butonları gerçekten iş gören site demek: sepet siparişi WhatsApp mesajına dönüştürür, formlar eksik bilgiyi yakalar, çalışma saatine göre "şu an açık" yazar, harita yol tarifi verir ve site Google'da bulunur. Görüntüden ibaret bir broşür değil.
+- WhatsApp sipariş nasıl çalışıyor? Müşteri menüden ürünleri sepete ekler, adını ve gerekiyorsa adresini yazar. Site siparişi ürün, adet, tahmini tutar ve adresle hazır bir mesaja dönüştürür ve işletmenin WhatsApp hattını açar. Aracı platform ve komisyon yoktur.
+- SEO ve GEO nedir, neden önemli? SEO, sitenin Google aramalarında üst sıralarda çıkması için yapılan çalışmadır. GEO (Generative Engine Optimization) ise ChatGPT, Gemini, Perplexity ve Google yapay zekâ özetleri gibi asistanların işletmenizi doğru tanıması ve önermesi içindir. Calisqa sitelerinde yapılandırılmış veri (schema.org), açık cevaplı içerik, site haritası ve llms.txt dosyası standart olarak bulunur.
+- Fiyatlar nasıl belirleniyor? Sayfa sayısına, sipariş ve rezervasyon gibi özelliklere, içerik ve fotoğraf hazırlığına ve bakım ihtiyacına göre. İhtiyacınızı yazın, kapsamı netleştirip size özel bir teklif hazırlayalım.
+- Web sitesi ne kadar sürede hazır olur? Süre kapsama göre değişir. Teklifle birlikte net bir takvim veriyoruz; çoğu zaman önce işletmeye özel bir demo hazırlayıp üzerinden birlikte ilerliyoruz.
+- Instagram'daki fotoğraflarımız kullanılabilir mi? Evet, izninizle. Demolarımızda işletmelerin kendi Instagram fotoğraflarını ve gerçek menülerini kullandık; stok fotoğraf yerine kendi görselleriniz siteyi daha güvenilir yapar.
+- Alan adı ve yayına alma kısmını siz mi yapıyorsunuz? Alan adı seçiminde, bağlanmasında ve sitenin yayına alınmasında yardımcı oluyoruz. Süreç boyunca ne yapıldığını adım adım paylaşıyoruz.
+- Menü, fiyat ya da saat değişince ne olacak? Değişiklikleri bize iletmeniz yeterli; sitenizi güncel tutuyoruz. İhtiyaca göre kendi düzenleyebileceğiniz yapılar da kurulabilir.
+- Calisqa ile AirviewTR arasındaki bağ nedir? Calisqa Software ve AirviewTR'ın ortak kurucusu Taha Çalışkan'dır.
+- Hangi şehirlerde hizmet veriyorsunuz? Gaziantep merkezliyiz. Çevrimiçi görüşmelerle farklı şehirlerdeki işletmelerle de çalışabiliyoruz.
