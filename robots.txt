@@ -31,4 +31,4 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://tahacaliskan.github.io/sitemap.xml
+Sitemap: https://calisqa.com/sitemap.xml

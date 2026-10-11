@@ -6,7 +6,7 @@
 - WhatsApp ve telefon: +90 501 346 65 60
 - E-posta: taha@calisqa.com
 - Konum: Gaziantep, Türkiye
-- Site: https://tahacaliskan.github.io/
+- Site: https://calisqa.com/
 
 ## Hizmetler
 - İşletme web siteleri (restoran, kafe, pastane, manav, hizmet işletmeleri)
@@ -16,12 +16,12 @@
 - Menü ve ürün katalogu, yayın ve bakım, özel yazılım
 
 ## Sayfalar
-- [Ana sayfa](https://tahacaliskan.github.io/)
-- [Hizmetler](https://tahacaliskan.github.io/hizmetler.html)
-- [Çalışmalar](https://tahacaliskan.github.io/calismalar.html)
-- [Hakkımızda](https://tahacaliskan.github.io/hakkimizda.html)
-- [Sık sorulan sorular](https://tahacaliskan.github.io/sss.html)
-- [İletişim](https://tahacaliskan.github.io/iletisim.html)
+- [Ana sayfa](https://calisqa.com/)
+- [Hizmetler](https://calisqa.com/hizmetler)
+- [Çalışmalar](https://calisqa.com/calismalar)
+- [Hakkımızda](https://calisqa.com/hakkimizda)
+- [Sık sorulan sorular](https://calisqa.com/sss)
+- [İletişim](https://calisqa.com/iletisim)
 
 ## Çalışmalar (demo siteler, Gaziantep Güvenevler)
 - [Usta Tavacı](https://tahacaliskan.github.io/guvenevler/usta-tavaci/): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
