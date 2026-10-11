@@ -127,13 +127,9 @@
       const lines = ['Merhaba ROLE Medya, yeni bir proje için brief:', '', `Ad soyad: ${val('b-name')}`, `Firma: ${val('b-firm')}`, `Telefon: ${val('b-tel')}`, `Sektör: ${val('b-sector')}`,
         svc.length ? `İhtiyaç: ${svc.join(', ')}` : '', val('b-when') ? `Zaman: ${val('b-when')}` : '', val('b-budget') ? `Bütçe: ${val('b-budget')}` : '', '', val('b-msg')].filter((l, i, a) => l !== '' || (a[i - 1] && a[i - 1] !== ''));
       const text = lines.join('\n').trim();
-      /* start the copy and open the DM inside the same click, so pop-up blockers allow it */
-      const copy = navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject();
-      window.open('https://ig.me/m/rolemediaagency', '_blank', 'noopener');
-      let copied = false;
-      try { await copy; copied = true; } catch (err) { copied = false; }
+      window.open('https://wa.me/905349579693?text=' + encodeURIComponent(text), '_blank', 'noopener');
       const okEl = $('.ok', form);
-      okEl.innerHTML = copied ? '<b>Brief kopyalandı.</b> Instagram mesaj kutusu açılıyor; mesaja yapıştırıp gönderin.' : '<b>Brief hazır.</b> Aşağıdaki metni kopyalayıp Instagram\'dan gönderin:<br><textarea readonly style="margin-top:10px;width:100%;min-height:160px;border-radius:12px;padding:12px;border:0">' + text.replace(/</g, '&lt;') + '</textarea>';
+      okEl.innerHTML = '<b>Brief hazır.</b> WhatsApp açıldı; mesajı göndermeniz yeterli.';
       okEl.classList.add('show');
     });
     $$('input,select,textarea', form).forEach(el => el.addEventListener('input', () => el.closest('.fld') && el.closest('.fld').classList.remove('invalid')));
