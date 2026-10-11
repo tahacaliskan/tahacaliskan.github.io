@@ -1,0 +1,135 @@
+[
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Patlıcan Kebabı",
+  "price": "1.100 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "patlican-kebabi.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Kuzu Pirzola",
+  "price": "1.100 TL",
+  "desc": "Tek kişilik",
+  "img": "kuzu-pirzola.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Et Şiş",
+  "price": "1.100 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "et-sis.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Fırın Beyti",
+  "price": "950 TL",
+  "desc": "Tek kişilik",
+  "img": "firin-beyti.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Adana Kebabı",
+  "price": "900 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "adana-kebabi.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Haşhaş Kebabı",
+  "price": "900 TL",
+  "desc": "Sebzeli kıyma. Közlenmiş domates, közlenmiş biber ile",
+  "img": "hashas-kebabi.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Urfa Kebabı",
+  "price": "900 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "urfa-kebabi.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Tavuk Şiş",
+  "price": "750 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "tavuk-sis.webp"
+ },
+ {
+  "cat": "Kebaplar & Izgaralar",
+  "name": "Tavuk Kanat",
+  "price": "750 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "tavuk-kanat.webp"
+ },
+ {
+  "cat": "Lahmacun",
+  "name": "Urfa Lahmacun",
+  "price": "250 TL",
+  "desc": "Adet olarak servis edilir.",
+  "img": "urfa-lahmacun.webp"
+ },
+ {
+  "cat": "Lahmacun",
+  "name": "Antep Lahmacun",
+  "price": "230 TL",
+  "desc": "Adet olarak servis edilir.",
+  "img": "antep-lahmacun.webp"
+ },
+ {
+  "cat": "Dürümler",
+  "name": "Adana Dürüm",
+  "price": "450 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "adana-durum.webp"
+ },
+ {
+  "cat": "Dürümler",
+  "name": "Haşhaş Kebap Dürüm",
+  "price": "450 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "hashas-kebap-durum.webp"
+ },
+ {
+  "cat": "Dürümler",
+  "name": "Tavuk Şiş Dürüm",
+  "price": "400 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "tavuk-sis-durum.webp"
+ },
+ {
+  "cat": "Dürümler",
+  "name": "Et Şiş Dürüm",
+  "price": "500 TL",
+  "desc": "Közlenmiş domates, közlenmiş biber ile",
+  "img": "et-sis-durum.webp"
+ },
+ {
+  "cat": "İçecekler",
+  "name": "Coca-Cola (33 cl.)",
+  "price": "100 TL",
+  "desc": "Kutu içecek",
+  "img": "coca-cola-33-cl.webp"
+ },
+ {
+  "cat": "İçecekler",
+  "name": "Fanta (33 cl.)",
+  "price": "100 TL",
+  "desc": "Kutu içecek",
+  "img": "fanta-33-cl.webp"
+ },
+ {
+  "cat": "İçecekler",
+  "name": "Sprite (33 cl.)",
+  "price": "100 TL",
+  "desc": "Kutu içecek",
+  "img": "sprite-33-cl.webp"
+ },
+ {
+  "cat": "İçecekler",
+  "name": "Ayran (33 cl.)",
+  "price": "60 TL",
+  "desc": "Büyük boy",
+  "img": "ayran-33-cl.webp"
+ }
+]

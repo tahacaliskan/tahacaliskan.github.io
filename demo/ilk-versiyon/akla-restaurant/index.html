@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akla Restaurant | Gaziantep Güvenevler Kahvaltı, Restoran & Bahçe</title>
+<meta name="description" content="Akla Restaurant — dünya ve yöresel tatların özenle buluştuğu adres. Her gün 08:00'den itibaren serpme kahvaltı, katmer, bahçe ve Akla Pub. Güvenevler, Şehitkamil / Gaziantep.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Akla Restaurant","url":"https://aklarestaurant.com","telephone":"+905321618615","servesCuisine":["Kahvaltı","Türk Mutfağı","Dünya Mutfağı"],
+"address":{"@type":"PostalAddress","streetAddress":"Güvenevler Mah. 29072. Sk. No:10 Kapı No:1","addressLocality":"Şehitkamil","addressRegion":"Gaziantep","postalCode":"27560","addressCountry":"TR"},
+"geo":{"@type":"GeoCoordinates","latitude":37.0896251,"longitude":37.3463027},"acceptsReservations":true,
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"117"}}
+</script>
+<style>
+:root{--bg:#f7f4f0;--ink:#141414;--mute:#6b6661;--line:#dcd5cc;--blush:#e9c9c3;--rose:#b7766c;--sage:#8c9b7a;--dark:#121212}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:300 16px/1.7 Manrope,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{width:min(1200px,100% - 32px);margin-inline:auto}
+.it{font-family:Italiana,serif;font-weight:400;letter-spacing:.02em}
+.demo{background:var(--ink);color:#eee;text-align:center;font-size:12px;padding:8px 12px;letter-spacing:.06em}
+nav{position:fixed;left:0;right:0;top:33px;z-index:50;transition:.3s;color:#fff}
+nav.solid{top:0;background:#f7f4f0f2;color:var(--ink);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
+.wordmark{text-align:center;line-height:1}
+.wordmark b{font:400 30px Italiana;letter-spacing:.42em;display:block;margin-right:-.42em}
+.wordmark small{font-size:8.5px;letter-spacing:.62em;font-weight:500}
+.links{display:flex;gap:30px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+.links a{opacity:.85}.links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;border:1px solid currentColor;transition:.3s}
+.btn:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.solid{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.solid:hover{background:var(--rose);border-color:var(--rose)}
+.btn.light{color:#fff}
+.btn.light:hover{background:#fff;color:var(--ink);border-color:#fff}
+.burger{display:none;background:none;border:0;color:inherit;font-size:26px}
+/* hero */
+.hero{position:relative;height:100vh;min-height:640px;display:grid;place-items:center;text-align:center;color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1900&q=70) center/cover;transform:scale(1.08);animation:kb 18s ease-out forwards}
+@keyframes kb{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(#0000004d,#000000a6)}
+.hero .in{position:relative;z-index:2;padding:0 16px}
+.hero .sub{font-size:12px;letter-spacing:.5em;text-transform:uppercase;font-weight:500}
+.hero h1{font:400 clamp(64px,13vw,170px)/1 Italiana;letter-spacing:.3em;margin:18px 0 6px;margin-right:-.3em}
+.hero p{font-size:19px;max-width:560px;margin:10px auto 34px;opacity:.92}
+.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.scroll{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:2;font-size:11px;letter-spacing:.3em;color:#fff;opacity:.8}
+section{padding:120px 0}
+.label{font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:600}
+.h2{font:400 clamp(42px,5.6vw,76px)/1.02 Italiana;margin:16px 0 22px}
+.lead{color:var(--mute);font-size:17px;max-width:520px}
+/* intro */
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.intro .pics{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.intro .pics img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.intro .pics img:last-child{margin-top:70px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:40px;border-top:1px solid var(--line)}
+.facts div{padding:20px 0}
+.facts b{font:400 40px/1 Italiana;display:block}
+.facts span{font-size:13px;color:var(--mute)}
+/* experiences */
+.exp{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px}
+.ex{position:relative;aspect-ratio:3/4.2;overflow:hidden;color:#fff}
+.ex img{width:100%;height:100%;object-fit:cover;transition:1s}
+.ex:hover img{transform:scale(1.06)}
+.ex::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 40%,#000c)}
+.ex .t{position:absolute;left:28px;right:28px;bottom:28px;z-index:2}
+.ex .t small{font-size:11px;letter-spacing:.3em;text-transform:uppercase;opacity:.85}
+.ex .t h3{font:400 38px/1.05 Italiana;margin:6px 0 8px}
+.ex .t p{font-size:14px;opacity:.9}
+/* breakfast */
+.bf{background:var(--blush)}
+.bf .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:70px;align-items:center}
+.bf ul{list-style:none;margin-top:28px;border-top:1px solid #0000001f}
+.bf li{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid #0000001f}
+.bf li b{font:400 24px Italiana}
+.bf li span{color:#5d4a46;font-size:14px;text-align:right}
+.bf .img{aspect-ratio:4/5;overflow:hidden}
+.bf .img img{width:100%;height:100%;object-fit:cover}
+/* pub */
+.pub{background:var(--dark);color:#eee;position:relative;overflow:hidden}
+.pub .wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.pub .h2{color:#fff}
+.pub .lead{color:#aaa}
+.eq{display:flex;gap:6px;align-items:flex-end;height:60px;margin-top:34px}
+.eq i{width:6px;background:var(--rose);animation:eq 1.2s ease-in-out infinite}
+.eq i:nth-child(2n){animation-delay:.2s;background:var(--blush)}.eq i:nth-child(3n){animation-delay:.45s}.eq i:nth-child(5n){animation-delay:.7s;background:var(--sage)}
+@keyframes eq{0%,100%{height:12px}50%{height:58px}}
+.pub .card{border:1px solid #ffffff22;padding:40px;background:#ffffff06}
+.pub .card h3{font:400 30px Italiana;margin-bottom:10px}
+/* reviews */
+.quote{text-align:center;max-width:860px;margin:0 auto}
+.quote .stars{color:var(--rose);letter-spacing:6px;margin-bottom:22px}
+.quote blockquote{font:400 clamp(26px,3.4vw,40px)/1.3 Italiana}
+.quote small{display:block;margin-top:20px;color:var(--mute);letter-spacing:.2em;text-transform:uppercase;font-size:12px}
+.dots{display:flex;gap:10px;justify-content:center;margin-top:30px}
+.dots button{width:30px;height:2px;border:0;background:var(--line);cursor:pointer}
+.dots button.on{background:var(--ink)}
+/* reservation */
+.res{display:grid;grid-template-columns:1fr 1.1fr;gap:70px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+form label{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);display:grid;gap:8px;font-weight:500}
+form input,form select,form textarea{font:400 16px Manrope;padding:14px 0;border:0;border-bottom:1px solid var(--ink);background:transparent;color:var(--ink);outline:none;border-radius:0}
+form input:focus,form select:focus,form textarea:focus{border-color:var(--rose)}
+form .full{grid-column:1/-1}
+form .btn{justify-self:start;cursor:pointer;font-family:Manrope}
+.contact{display:grid;gap:22px;margin-top:30px}
+.contact h4{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--rose);font-weight:600;margin-bottom:4px}
+.map{margin-top:70px;height:420px;filter:grayscale(1) contrast(1.05)}
+.map iframe{width:100%;height:100%;border:0}
+footer{background:var(--ink);color:#bbb;text-align:center;padding:70px 0 110px;font-size:13px}
+footer .wordmark{color:#fff;margin-bottom:22px}
+footer .wordmark b{font-size:40px}
+.mbar{display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:60;background:#141414f2;padding:8px;gap:8px}
+.mbar a{flex:1;text-align:center;color:#fff;padding:13px 4px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+.mbar a:first-child{background:var(--rose)}
+.reveal{opacity:0;transform:translateY(26px);transition:1s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){
+ .links,.nav-cta{display:none}.burger{display:block}
+ .links.open{display:flex;flex-direction:column;position:absolute;top:78px;left:0;right:0;background:var(--bg);color:var(--ink);padding:24px 16px;gap:18px;border-bottom:1px solid var(--line)}
+ .intro,.bf .wrap,.pub .wrap,.res{grid-template-columns:1fr;gap:44px}
+ .exp{grid-template-columns:1fr}
+ .ex{aspect-ratio:4/4.4}
+ form{grid-template-columns:1fr}
+ section{padding:80px 0}
+ .mbar{display:flex}
+ .pub .card{padding:26px}
+}
+</style>
+</head>
+<body>
+<div class="demo">DEMO TASARIM · Bu site Akla Restaurant için örnek olarak hazırlanmıştır</div>
+<nav id="nav"><div class="wrap">
+ <div class="links" id="links"><a href="#hakkimizda">Hakkımızda</a><a href="#kahvalti">Kahvaltı</a><a href="#pub">Akla Pub</a></div>
+ <a href="#" class="wordmark"><b>AKLA</b><small>RESTAURANT</small></a>
+ <div style="display:flex;align-items:center;gap:22px">
+  <div class="links"><a href="#yorumlar">Yorumlar</a></div>
+  <a href="#rezervasyon" class="btn nav-cta">Rezervasyon</a>
+  <button class="burger" aria-label="Menü" onclick="links.classList.toggle('open')">☰</button>
+ </div>
+</div></nav>
+
+<header class="hero">
+ <div class="bg"></div>
+ <div class="in">
+  <div class="sub">Gaziantep · Güvenevler</div>
+  <h1>AKLA</h1>
+  <p>Dünya ve yöresel tatların özenle buluştuğu adres. Sabah kahvaltısından gece müziğine, günün her anı için bir masa.</p>
+  <div class="cta"><a href="#rezervasyon" class="btn light">Masa Ayırt</a><a href="#kahvalti" class="btn light">Kahvaltı Menüsü</a></div>
+ </div>
+ <div class="scroll">AŞAĞI KAYDIR ↓</div>
+</header>
+
+<section id="hakkimizda">
+ <div class="wrap intro">
+  <div class="reveal">
+   <div class="label">Hakkımızda</div>
+   <h2 class="h2">Huzurlu bir atmosfer,<br>özenli bir mutfak</h2>
+   <p class="lead">Akla, Arun Suites bünyesinde; Antep mutfağının köklü tatlarını dünya mutfağının zarafetiyle aynı sofrada buluşturuyor. Sıcak ilgi, temiz bir mutfak ve kendinizi evinizde hissettiren bir hizmet anlayışı.</p>
+   <div class="facts">
+    <div><b>4,6</b><span>Google puanı · 117 yorum</span></div>
+    <div><b>08:00</b><span>Her gün kahvaltı</span></div>
+    <div><b>3</b><span>Salon · Bahçe · Pub</span></div>
+   </div>
+  </div>
+  <div class="pics reveal">
+   <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=70" alt="Restoran salonu" loading="lazy">
+   <img src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=700&q=70" alt="Taze salata" loading="lazy">
+  </div>
+ </div>
+ <div class="wrap exp">
+  <div class="ex reveal"><img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&q=70" alt="Kahvaltı" loading="lazy"><div class="t"><small>Sabah</small><h3>Kahvaltı</h3><p>Serpme kahvaltı, katmer ve kuru biber dolması ile güne Antep usulü başlayın.</p></div></div>
+  <div class="ex reveal"><img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=70" alt="Restoran" loading="lazy"><div class="t"><small>Öğle & Akşam</small><h3>Restaurant</h3><p>Şef dokunuşuyla yöresel ve dünya mutfağından seçkin tabaklar.</p></div></div>
+  <div class="ex reveal"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=70" alt="Bahçe" loading="lazy"><div class="t"><small>Açık Hava</small><h3>Bahçe</h3><p>Yeşillikler arasında, güzel havalarda keyifli bir mola.</p></div></div>
+ </div>
+</section>
+
+<section class="bf" id="kahvalti">
+ <div class="wrap">
+  <div class="reveal">
+   <div class="label">Her gün 08:00'den itibaren</div>
+   <h2 class="h2">Güne lezzetli başla</h2>
+   <p class="lead" style="color:#5d4a46">Sabah huzurunu lezzetle buluşturmak isteyen herkesi bekliyoruz.</p>
+   <ul>
+    <li><b>Serpme Kahvaltı</b><span>Yöresel peynirler, reçeller ve sıcaklar</span></li>
+    <li><b>Antep Katmeri</b><span>Kaymak ve Antep fıstığı ile</span></li>
+    <li><b>Kuru Biber Dolması</b><span>Antep sofrasının vazgeçilmezi</span></li>
+    <li><b>Akla İmza İçecekler</b><span>Mevsim aromalarıyla şef dokunuşu</span></li>
+   </ul>
+  </div>
+  <div class="img reveal"><img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=900&q=70" alt="Kahvaltı tabağı" loading="lazy"></div>
+ </div>
+</section>
+
+<section class="pub" id="pub">
+ <div class="wrap">
+  <div class="reveal">
+   <div class="label">-1. Kat</div>
+   <h2 class="h2">Akla Pub</h2>
+   <p class="lead">Gün batınca sahne değişir. Restoranımızın alt katındaki Akla Pub'da DJ performansları ve müzik gecelerinde buluşalım.</p>
+   <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div class="card reveal">
+   <div class="label" style="color:var(--blush)">Etkinlik Takvimi</div>
+   <h3>DJ Geceleri</h3>
+   <p style="color:#aaa">Kapılar 22:00'de açılır. Güncel etkinlikler ve sanatçı duyuruları için Instagram hesabımızı takip edin.</p>
+   <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn light" target="_blank" rel="noopener" href="https://instagram.com/akla.restaurant">@akla.restaurant</a><a class="btn light" href="#rezervasyon">Masa Ayırt</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="yorumlar">
+ <div class="wrap quote">
+  <div class="label">Misafirlerimiz</div>
+  <div class="stars" style="margin-top:18px">★ ★ ★ ★ ★</div>
+  <blockquote id="q"></blockquote>
+  <small id="qa"></small>
+  <div class="dots" id="dots"></div>
+ </div>
+</section>
+
+<section id="rezervasyon" style="padding-top:0">
+ <div class="wrap res">
+  <div class="reveal">
+   <div class="label">Rezervasyon</div>
+   <h2 class="h2">Masanızı<br>ayırtalım</h2>
+   <p class="lead">Formu doldurun, talebiniz WhatsApp üzerinden doğrudan bize ulaşsın. Kısa sürede onay için dönüş yapıyoruz.</p>
+   <div class="contact">
+    <div><h4>Adres</h4>Güvenevler Mah. 29072. Sk. No:10<br>Şehitkamil / Gaziantep</div>
+    <div><h4>Telefon</h4><a href="tel:+905321618615">0532 161 86 15</a></div>
+    <div><h4>Saatler</h4>Her gün · 08:00 – 23:30</div>
+   </div>
+  </div>
+  <form id="f" class="reveal">
+   <label>Ad Soyad<input name="ad" required placeholder="Adınız"></label>
+   <label>Telefon<input name="tel" type="tel" required placeholder="05xx xxx xx xx"></label>
+   <label>Tarih<input name="tarih" type="date" required></label>
+   <label>Saat<input name="saat" type="time" required value="20:00"></label>
+   <label>Kişi Sayısı<select name="kisi"><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8+</option></select></label>
+   <label>Alan<select name="alan"><option>Salon</option><option>Bahçe</option><option>Akla Pub</option><option>Kahvaltı</option></select></label>
+   <label class="full">Not<textarea name="not" rows="2" placeholder="Doğum günü, özel istek..."></textarea></label>
+   <button class="btn solid full" type="submit">WhatsApp ile Gönder →</button>
+  </form>
+ </div>
+ <div class="map"><iframe loading="lazy" title="Akla Restaurant konum" src="https://www.google.com/maps?q=37.0896251,37.3463027&z=17&output=embed"></iframe></div>
+</section>
+
+<footer>
+ <div class="wordmark"><b>AKLA</b><small>RESTAURANT</small></div>
+ <p>Güvenevler, Şehitkamil / Gaziantep · <a href="tel:+905321618615">0532 161 86 15</a> · <a href="https://instagram.com/akla.restaurant" target="_blank" rel="noopener">Instagram</a></p>
+ <p style="margin-top:10px;opacity:.6">© 2026 Akla Restaurant · aklarestaurant.com</p>
+</footer>
+
+<div class="mbar"><a href="#rezervasyon">Rezervasyon</a><a href="tel:+905321618615">Ara</a><a href="https://www.google.com/maps/dir/?api=1&destination=37.0896251,37.3463027">Yol Tarifi</a></div>
+
+<script>
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>60),{passive:true});
+const Q=[["Huzurlu atmosferi ve kaliteli hizmetiyle gerçekten özel bir mekân. Kendimizi evimizde gibi hissettik.","İ. K. · Google"],["İlk defa geldim, beklentimin çok üstündeydi. Lezzet, temizlik ve hizmet tam puanı hak ediyor.","Y. K. · Google"],["Gaziantep'te tavsiye edeceğim ilk restoranlardan biri.","Y. K. · Google"]];
+let qi=0;const q=document.getElementById('q'),qa=document.getElementById('qa'),dots=document.getElementById('dots');
+dots.innerHTML=Q.map((_,i)=>`<button aria-label="Yorum ${i+1}"></button>`).join('');
+const setQ=i=>{qi=i;q.textContent='“'+Q[i][0]+'”';qa.textContent=Q[i][1];[...dots.children].forEach((b,j)=>b.classList.toggle('on',j===i))};
+[...dots.children].forEach((b,i)=>b.onclick=()=>setQ(i));setQ(0);setInterval(()=>setQ((qi+1)%Q.length),6000);
+document.getElementById('f').onsubmit=e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));
+const msg=`Merhaba, rezervasyon talebim:\nAd: ${d.ad}\nTel: ${d.tel}\nTarih: ${d.tarih} ${d.saat}\nKişi: ${d.kisi}\nAlan: ${d.alan}${d.not?`\nNot: ${d.not}`:''}`;
+window.open('https://wa.me/905321618615?text='+encodeURIComponent(msg),'_blank')};
+const t=new Date();document.querySelector('[name=tarih]').min=t.toISOString().slice(0,10);
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('#links a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+</script>
+</body>
+</html>

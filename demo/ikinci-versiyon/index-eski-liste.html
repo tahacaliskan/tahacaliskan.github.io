@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Güvenevler Demo Siteleri</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f6f3;--card:#fff;--ink:#16181d;--mute:#666b75;--line:#e4e4de;--hot:#e5482f;--warm:#e69a1c;--cold:#8a8f99;--ok:#1f8a4c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121317;--card:#1b1d23;--ink:#eceef2;--mute:#9aa0ab;--line:#2b2e36}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit}
+.wrap{width:min(1120px,100% - 32px);margin:0 auto;padding:48px 0 80px}
+h1{font-size:clamp(30px,4.6vw,46px);letter-spacing:-.03em;line-height:1.08}
+.sub{color:var(--mute);margin:12px 0 30px;max-width:720px;font-size:16px}
+.sum{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:38px}
+.sum div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.sum b{font-size:28px;display:block;letter-spacing:-.02em}
+.sum span{color:var(--mute);font-size:13px}
+h2{font-size:20px;margin:34px 0 14px;letter-spacing:-.01em}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.c header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.c h3{font-size:19px;letter-spacing:-.01em}
+.c .meta{color:var(--mute);font-size:13px}
+.pri{font-size:11px;font-weight:700;letter-spacing:.08em;padding:4px 9px;border-radius:999px;white-space:nowrap;color:#fff}
+.p1{background:var(--hot)}.p2{background:var(--warm)}.p3{background:var(--cold)}
+dl{display:grid;grid-template-columns:110px 1fr;gap:4px 12px;font-size:13.5px}
+dt{color:var(--mute)}
+.pitch{background:color-mix(in srgb,var(--ok) 9%,transparent);border-left:3px solid var(--ok);padding:10px 12px;border-radius:8px;font-size:13.5px}
+.btn{display:inline-flex;justify-content:center;padding:11px 16px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:600;text-decoration:none;font-size:14px;margin-top:auto}
+.skip{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:18px 20px;display:grid;gap:10px}
+.skip p{font-size:14px}
+.skip b{display:inline-block;min-width:200px}
+ul.todo{padding-left:18px;display:grid;gap:6px;font-size:14px;color:var(--mute)}
+ul.todo b{color:var(--ink)}
+footer{margin-top:40px;color:var(--mute);font-size:12.5px}
+@media(max-width:820px){.grid{grid-template-columns:1fr}.sum{grid-template-columns:1fr 1fr}dl{grid-template-columns:96px 1fr}.skip b{display:block}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <h1>Güvenevler'deki web sitesiz işletmeler: 6 demo site</h1>
+ <p class="sub">Şehitkamil / Gaziantep. Listedeki 8 işletme Google Haritalar, Instagram, Yemeksepeti ve alan adı kontrolleriyle tek tek araştırıldı (10 Ekim 2026). Gerçekten sitesi olmayan 6 işletme için tasarımı birbirinden farklı demolar hazırlandı.</p>
+
+ <div class="sum">
+  <div><b>8</b><span>işletme araştırıldı</span></div>
+  <div><b>6</b><span>demo site hazır</span></div>
+  <div><b>2</b><span>alan adı var ama site yok</span></div>
+  <div><b>2</b><span>elendi (sitesi var / belediye)</span></div>
+ </div>
+
+ <h2>Demolar (öncelik sırasıyla)</h2>
+ <div class="grid">
+
+  <div class="c">
+   <header><div><h3>Akla Restaurant</h3><div class="meta">Restoran · Kahvaltı · Pub · Arun Suites bünyesinde</div></div><span class="pri p1">ÇOK SICAK</span></header>
+   <dl><dt>Puan</dt><dd>4,6 ★ (117 Google yorumu)</dd><dt>Telefon</dt><dd>0532 161 86 15</dd><dt>Adres</dt><dd>Güvenevler, 29072. Sk. No:10</dd><dt>Mevcut durum</dt><dd><b>aklarestaurant.com</b> alındı ama sadece “Yakında açılıyor” sayfası var</dd></dl>
+   <div class="pitch">Alan adını zaten almışlar, yani site istiyorlar. “Sitenizi bu hafta yayına alabiliriz” diyerek gidebilirsin. Otel bağlantısı da bütçenin olduğunu gösteriyor.</div>
+   <a class="btn" href="akla-restaurant/index.html">Demoyu aç →</a>
+  </div>
+
+  <div class="c">
+   <header><div><h3>Namık Baydar Sofrası</h3><div class="meta">Antep ev yemekleri · Batıkent (Güvenevler'e komşu)</div></div><span class="pri p1">ÇOK SICAK</span></header>
+   <dl><dt>Puan</dt><dd>4,8 ★ (5.974 Google yorumu)</dd><dt>Instagram</dt><dd>@namikbaydarsofrasi, 70 bin takipçi</dd><dt>Telefon</dt><dd>0507 045 72 72</dd><dt>Mevcut durum</dt><dd>Site yok; sadece üçüncü taraf menü sayfaları var</dd></dl>
+   <div class="pitch">Bölgenin en güçlü markası ve turist alıyor. Demoda TR/EN dil seçeneği, Antep lezzet sözlüğü ve 350 kişilik grup/tur rezervasyon formu var. Yandaki <b>Namık Büfe</b>'nin (namikbufe.com) sitesi var, restoranın yok: bu iyi bir konuşma açılışı.</div>
+   <a class="btn" href="namik-baydar-sofrasi/index.html">Demoyu aç →</a>
+  </div>
+
+  <div class="c">
+   <header><div><h3>Sofdağı Manav & Market</h3><div class="meta">Manav · Bakkal · İşletmeci: Ömer Faruk Doğan</div></div><span class="pri p1">SICAK</span></header>
+   <dl><dt>Puan</dt><dd>4,1 ★ (74) + 4,4 ★ (7), iki ayrı Google kaydı</dd><dt>Instagram</dt><dd>@sofdag_manav, 12,8 bin takipçi</dd><dt>Telefon</dt><dd>0538 080 07 04</dd><dt>Mevcut durum</dt><dd><b>sofdagi.com.tr</b> alındı ama doğrudan Instagram'a yönleniyor</dd></dl>
+   <div class="pitch">Alan adı boşa duruyor. Demodaki “sepet hazırla, WhatsApp'tan gönder” özelliği doğrudan satış getirir. Yorumlarda kasanın yavaş olduğu söyleniyor; ön sipariş bunu da çözer.</div>
+   <a class="btn" href="sofdagi-manav/index.html">Demoyu aç →</a>
+  </div>
+
+  <div class="c">
+   <header><div><h3>Usta Tavacı</h3><div class="meta">Tava · Kebap · Lahmacun · Pide</div></div><span class="pri p2">ILIK</span></header>
+   <dl><dt>Puan</dt><dd>4,2 ★ (248 Google yorumu)</dd><dt>Instagram</dt><dd>@ustatavacii, 40 bin takipçi</dd><dt>Telefon</dt><dd>0530 342 99 27 · 0530 041 46 63</dd><dt>Adres</dt><dd>Güvenevler, 29011 Nolu Sk. 5/B (Pazaryeri yanı)</dd></dl>
+   <div class="pitch">Instagram'da kampanya menüleri paylaşıyor ve paket servis yapıyor. Site menü ve kampanya vitrini olur, paket siparişi de telefona yönlendirir. Bir yorumda “loş ortamı alkollü mekan sandık” deniyor; sitede “alkolsüz, aile dostu” vurgusu bu algıyı düzeltir.</div>
+   <a class="btn" href="usta-tavaci/index.html">Demoyu aç →</a>
+  </div>
+
+  <div class="c">
+   <header><div><h3>Birecik Sofrası Bekir Usta</h3><div class="meta">Kebap · Lahmacun · Katmer · 1998'den beri</div></div><span class="pri p2">ILIK</span></header>
+   <dl><dt>Puan</dt><dd>4,2 ★ (72 Google yorumu)</dd><dt>Instagram</dt><dd>@bireciksofrasi, ~16 bin takipçi</dd><dt>Telefon</dt><dd>(0342) 321 25 71 · 0536 540 43 54</dd><dt>Adres</dt><dd>Güvenevler, Duisburg Blv. 50/A</dd></dl>
+   <div class="pitch">Instagram'da “aynı ustalık, aynı lezzet” diyerek bu adresi duyuran bir paylaşım var; yakın zamanda taşınmış olabilirler. Öyleyse yeni adresi duyurmak için iyi bir zaman. Yemeksepeti ve Trendyol Yemek'te varlar ama komisyonsuz kendi kanalları yok.</div>
+   <a class="btn" href="birecik-sofrasi/index.html">Demoyu aç →</a>
+  </div>
+
+  <div class="c">
+   <header><div><h3>Pralin Bakery</h3><div class="meta">Pastane · Kruvasan · Brunch · Kahve</div></div><span class="pri p2">ILIK</span></header>
+   <dl><dt>Puan</dt><dd>4,9 ★ (14 Google yorumu)</dd><dt>Instagram</dt><dd>@pralinbakery, 1,6 bin takipçi</dd><dt>Telefon</dt><dd>0533 317 02 57</dd><dt>Adres</dt><dd>Güvenevler, Faik Atak Sitesi E Blok (Polis Okulu civarı)</dd></dl>
+   <div class="pitch">Yeni ve marka bilinci yüksek bir işletme; bir medya ajansıyla içerik üretiyorlar (@hasteqmedia). Görsel kaliteye önem veriyorlar. Demodaki menü Yemeksepeti'ndeki gerçek ürünlerden alındı.</div>
+   <a class="btn" href="pralin-bakery/index.html">Demoyu aç →</a>
+  </div>
+ </div>
+
+ <h2>Elenenler</h2>
+ <div class="skip">
+  <p><b>Çiğdem Antep Mutfağı</b> Zaten sitesi var: <a href="https://cigdemturkmutfagi.com.tr" target="_blank" rel="noopener">cigdemturkmutfagi.com.tr</a> (“Çiğdem Türk Mutfağı” adıyla, aynı adres). Google kaydına eklenmemiş, bu yüzden sitesi yok gibi görünüyor.</p>
+  <p><b>Gölbucks Kafe</b> Şehitkamil Belediyesi'nin işlettiği bir kafe (2. şubesi Haziran 2025'te açıldı). Esnaf değil, belediye; bu yüzden demo satışına uygun değil.</p>
+ </div>
+
+ <h2>Ziyaretten önce yapılacaklar</h2>
+ <ul class="todo">
+  <li><b>Fotoğraflar:</b> Demolardaki görseller stok fotoğraf. Satış sonrası işletmenin kendi fotoğrafları konulmalı (Instagram'dan izinle alınabilir veya yeni çekim yapılabilir).</li>
+  <li><b>Fiyatlar:</b> Bilerek eklenmedi. Güncel fiyat bilgisi işletmeden alınmalı.</li>
+  <li><b>Teyit edilecekler:</b> Çalışma saatleri (Google ve Instagram'da farklı yazıyor), WhatsApp numaraları, menü kalemleri (özellikle Usta Tavacı'daki kebap çeşitleri), Sofdağı'nın teslimat yapıp yapmadığı.</li>
+  <li><b>Yorumlar:</b> Google'daki gerçek yorumlardan kısa alıntılar, sadece baş harflerle verildi.</li>
+  <li><b>Demo bandı:</b> Her sitenin en üstünde “DEMO TASARIM” yazan şerit var; satış sonrası kaldırılacak.</li>
+ </ul>
+ <footer>Kaynaklar: Google Haritalar işletme kayıtları, Instagram profil açıklamaları, Yemeksepeti menüsü (Pralin), Haber7 (Namık Baydar, Haziran 2025), Şehitkamil Belediyesi duyuruları (Gölbucks).</footer>
+</div>
+</body>
+</html>

@@ -24,12 +24,12 @@
 - [İletişim](https://calisqa.com/iletisim)
 
 ## Çalışmalar (demo siteler, Gaziantep Güvenevler)
-- [Usta Tavacı](https://tahacaliskan.github.io/guvenevler/usta-tavaci/): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
-- [Namık Baydar Sofrası](https://tahacaliskan.github.io/guvenevler/namik-baydar-sofrasi/): Antep ev yemekleri lokantası, 6 sayfa. Türkçe ve İngilizce lezzet rehberi; 350 kişilik salon için grup rezervasyon formu; 56 ürünlük menü ve WhatsApp sipariş; Dama karo desenli marka kiti
-- [Pralin Bakery](https://tahacaliskan.github.io/guvenevler/pralin-bakery/): Pastane ve kahvaltı, 5 sayfa. 136 ürünlük menü, 15 kategori; Kutlama pastası sipariş formu; Ahududu, fıstık ve karamel renk sistemi; Dantel fistonlu desen dili
-- [Akla Restaurant](https://tahacaliskan.github.io/guvenevler/akla-restaurant/): Restoran, kahvaltı ve canlı müzik, 5 sayfa. Masa rezervasyon formu; Haftalık sahne ve etkinlik takvimi; Kahvaltıdan geceye günün saatleri; İncir yaprağı desenli marka kiti
-- [Sofdağı Manav](https://tahacaliskan.github.io/guvenevler/sofdagi-manav/): Manav ve market, 4 sayfa. Günlük fiyatlı ürün listesi ve sepet; Gel al ya da adrese teslim seçimi; Manav tentesi ve domates sırası deseni; Reyon kısayolları
-- [Birecik Sofrası](https://tahacaliskan.github.io/guvenevler/birecik-sofrasi/): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
+- [Usta Tavacı](https://calisqa.com/demo/usta-tavaci/): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
+- [Namık Baydar Sofrası](https://calisqa.com/demo/namik-baydar-sofrasi/): Antep ev yemekleri lokantası, 6 sayfa. Türkçe ve İngilizce lezzet rehberi; 350 kişilik salon için grup rezervasyon formu; 56 ürünlük menü ve WhatsApp sipariş; Dama karo desenli marka kiti
+- [Pralin Bakery](https://calisqa.com/demo/pralin-bakery/): Pastane ve kahvaltı, 5 sayfa. 136 ürünlük menü, 15 kategori; Kutlama pastası sipariş formu; Ahududu, fıstık ve karamel renk sistemi; Dantel fistonlu desen dili
+- [Akla Restaurant](https://calisqa.com/demo/akla-restaurant/): Restoran, kahvaltı ve canlı müzik, 5 sayfa. Masa rezervasyon formu; Haftalık sahne ve etkinlik takvimi; Kahvaltıdan geceye günün saatleri; İncir yaprağı desenli marka kiti
+- [Sofdağı Manav](https://calisqa.com/demo/sofdagi-manav/): Manav ve market, 4 sayfa. Günlük fiyatlı ürün listesi ve sepet; Gel al ya da adrese teslim seçimi; Manav tentesi ve domates sırası deseni; Reyon kısayolları
+- [Birecik Sofrası](https://calisqa.com/demo/birecik-sofrasi/): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
 
 ## Sık sorulan sorular
 - Calisqa Software nedir? Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Kurucusu Taha Çalışkan'dır.

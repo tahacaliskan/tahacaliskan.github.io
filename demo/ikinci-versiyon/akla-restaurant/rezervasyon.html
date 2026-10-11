@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rezervasyon | Akla Restaurant</title>
+<meta name="description" content="Salon, bahçe veya Akla Pub için masa ayırtın. Adres, saatler ve yol tarifi.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ebede9">
+<meta property="og:title" content="Rezervasyon | Akla Restaurant">
+<meta property="og:description" content="Salon, bahçe veya Akla Pub için masa ayırtın. Adres, saatler ve yol tarifi.">
+<meta property="og:image" content="img/incir-bahce.webp">
+<link rel="icon" href="img/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Akla Restaurant", "telephone": "+905321618615", "acceptsReservations": true, "servesCuisine": ["Kahvaltı", "Türk mutfağı", "Dünya mutfağı"], "address": {"@type": "PostalAddress", "streetAddress": "Güvenevler Mah. 29072. Sk. No:10", "addressLocality": "Şehitkamil", "addressRegion": "Gaziantep", "postalCode": "27560", "addressCountry": "TR"}, "geo": {"@type": "GeoCoordinates", "latitude": 37.0896251, "longitude": 37.3463027}, "openingHours": "Mo-Su 08:00-23:30", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "117"}}</script>
+</head>
+<body class="page-rezervasyon">
+<a class="skip" href="#main">İçeriğe geç</a>
+<div class="demo"><b>Demo tasarım.</b> Akla Restaurant için hazırlanmış örnek sitedir, işletmenin resmi sitesi değildir.</div>
+<header class="site-head">
+  <div class="wrap">
+    <a href="index.html" class="brand" aria-label="Akla Restaurant ana sayfa"><img src="img/logo.webp" alt="" width="44" height="44"><span class="bn">Akla<small>Restaurant, Arun Suites</small></span></a>
+    <nav class="main-nav" aria-label="Ana menü"><ul><li><a href="index.html">Ana sayfa</a></li><li><a href="mutfak.html">Mutfak</a></li><li><a href="etkinlikler.html">Etkinlikler</a></li><li><a href="hikayemiz.html">Hikâyemiz</a></li><li><a href="rezervasyon.html" aria-current=page>Rezervasyon</a></li></ul></nav>
+    <div class="head-cta">
+      <a class="btn btn-primary btn-sm" href="rezervasyon.html">Masa ayırt <i class="ph ph-calendar-check"></i></a>
+      <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Menüyü aç"><i class="ph ph-list"></i></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Site menüsü">
+  <div class="top"><a href="index.html" class="brand"><img src="img/logo.webp" alt="" width="44" height="44"><span class="bn">Akla</span></a><button class="menu-toggle" style="display:grid" type="button" data-nav-toggle aria-label="Menüyü kapat"><i class="ph ph-x"></i></button></div>
+  <ul><li><a href="index.html">Ana sayfa<i class="ph ph-arrow-right"></i></a></li><li><a href="mutfak.html">Mutfak<i class="ph ph-arrow-right"></i></a></li><li><a href="etkinlikler.html">Etkinlikler<i class="ph ph-arrow-right"></i></a></li><li><a href="hikayemiz.html">Hikâyemiz<i class="ph ph-arrow-right"></i></a></li><li><a href="rezervasyon.html" aria-current=page>Rezervasyon<i class="ph ph-arrow-right"></i></a></li></ul>
+  <div class="bottom"><a class="btn btn-primary btn-block" href="rezervasyon.html">Masa ayırt <i class="ph ph-calendar-check"></i></a><a class="btn btn-ghost btn-block" href="tel:+905321618615"><i class="ph ph-phone"></i>0532 161 86 15</a></div>
+</div>
+<main id="main">
+
+<div class="page-hero"><div class="wrap">
+  <p class="crumbs"><a href="index.html">Ana sayfa</a><i class="ph ph-caret-right"></i>Rezervasyon</p>
+  <h1 class="display h1">Rezervasyon</h1>
+  <p class="status" data-status style="margin-top:14px"><span class="dot" aria-hidden="true"></span><span>Her gün 08:00 - 23:30</span></p>
+</div></div>
+<section class="tight"><div class="wrap res-grid">
+  <form class="form card" style="padding:30px" data-wa-form data-title="rezervasyon talebi" novalidate>
+    <div class="field"><label for="r1">Ad soyad *</label><input id="r1" required autocomplete="name"><span class="err">Bu alan gerekli.</span></div>
+    <div class="field"><label for="r2">Telefon *</label><input id="r2" type="tel" required autocomplete="tel" placeholder="05xx xxx xx xx"><span class="err">Geçerli bir telefon yazın.</span></div>
+    <div class="field"><label for="r3">Tarih *</label><input id="r3" type="date" required><span class="err">Tarih seçin.</span></div>
+    <div class="field"><label for="r4">Saat *</label><input id="r4" type="time" value="20:00" required><span class="err">Saat seçin.</span></div>
+    <div class="field"><label for="r5">Kişi sayısı</label><select id="r5"><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option><option>10 ve üzeri</option></select></div>
+    <div class="field"><label for="r6">Alan</label><select id="r6"><option>Salon</option><option>İncir ağaçlı bahçe</option><option>Akla Pub</option><option>Kahvaltı</option></select></div>
+    <div class="field full"><label for="r7">Not</label><textarea id="r7" placeholder="Doğum günü, alerji, özel istek"></textarea></div>
+    <div class="field full"><button class="btn btn-primary btn-block" type="submit"><i class="ph ph-whatsapp-logo"></i>Rezervasyon iste</button><span class="help">Talebiniz WhatsApp'ta hazır mesaj olarak açılır; onay için size dönüş yaparız.</span></div>
+    <div class="form-ok" role="status"></div>
+  </form>
+  <div style="display:grid;gap:18px">
+    <div class="card" style="padding:26px">
+      <div class="info-list">
+        <div class="info-row"><i class="ph ph-map-pin"></i><div>Güvenevler Mah. 29072. Sk. No:10<small>Arun Suites, 27560 Şehitkamil / Gaziantep</small></div></div>
+        <div class="info-row"><i class="ph ph-phone"></i><div><a href="tel:+905321618615">0532 161 86 15</a><small>Rezervasyon ve bilgi</small></div></div>
+        <div class="info-row"><i class="ph ph-instagram-logo"></i><div><a href="https://instagram.com/akla.restaurant" target="_blank" rel="noopener">@akla.restaurant</a></div></div>
+      </div>
+      <h2 class="display h3" style="margin:24px 0 6px">Saatler</h2>
+      <div class="hours" data-hours></div>
+      <a class="btn btn-ghost" style="margin-top:20px" href="https://www.google.com/maps/dir/?api=1&destination=37.0896251,37.3463027" target="_blank" rel="noopener"><i class="ph ph-navigation-arrow"></i>Yol tarifi</a>
+    </div>
+    <div class="map" style="min-height:300px"><iframe title="Akla Restaurant harita konumu" loading="lazy" src="https://www.google.com/maps?q=37.0896251,37.3463027&z=17&output=embed"></iframe></div>
+  </div>
+</div></section>
+
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="cols">
+      <div><a href="index.html" class="brand"><img src="img/logo.webp" alt="" width="44" height="44" loading="lazy"><span class="bn">Akla</span></a><p class="muted" style="margin-top:14px;max-width:34ch">Dünya ve yöresel tatların buluştuğu adres. Kahvaltı, restoran, bahçe ve canlı müzik.</p></div>
+      <div><h4>Sayfalar</h4><ul><li><a href="index.html">Ana sayfa</a></li><li><a href="mutfak.html">Mutfak</a></li><li><a href="etkinlikler.html">Etkinlikler</a></li><li><a href="hikayemiz.html">Hikâyemiz</a></li><li><a href="rezervasyon.html">Rezervasyon</a></li></ul></div>
+      <div><h4>Saatler</h4><ul><li>Her gün: 08:00 - 23:30</li><li>Kahvaltı 08:00&#x27;den itibaren</li></ul></div>
+      <div><h4>İletişim</h4><ul><li><a href="tel:+905321618615">0532 161 86 15</a></li><li><a href="https://wa.me/905321618615" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="https://instagram.com/akla.restaurant" target="_blank" rel="noopener">Instagram</a></li><li>Güvenevler, 29072. Sk. No:10</li></ul></div>
+    </div>
+    <div class="legal"><span>© <span data-year>2026</span> Akla Restaurant</span><span>Demo tasarım. Fotoğraflar işletmenin kendi paylaşımlarından alınmıştır.</span></div>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Hızlı işlemler"><a href="rezervasyon.html"><i class="ph ph-calendar-check"></i>Masa ayırt</a><a href="tel:+905321618615"><i class="ph ph-phone"></i>Ara</a><a href="https://www.google.com/maps/dir/?api=1&destination=37.0896251,37.3463027"><i class="ph ph-navigation-arrow"></i>Yol tarifi</a></nav>
+<script>window.SITE={"name": "Akla Restaurant", "slug": "akla-restaurant", "wa": "905321618615", "hours": {"0": ["08:00", "23:30"], "1": ["08:00", "23:30"], "2": ["08:00", "23:30"], "3": ["08:00", "23:30"], "4": ["08:00", "23:30"], "5": ["08:00", "23:30"], "6": ["08:00", "23:30"]}, "menuLayout": "auto", "cart": false};</script>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

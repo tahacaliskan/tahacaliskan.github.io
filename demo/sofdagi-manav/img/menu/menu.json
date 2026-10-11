@@ -1,0 +1,191 @@
+[
+ {
+  "cat": "Meyve",
+  "name": "Yayla çileği (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Bal tadında, mevsiminde",
+  "img": "yayla-cilegi.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Can erik (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Mevsiminde, ekşi ve çıtır",
+  "img": "can-erik.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Karpuz (adet)",
+  "price": "Günlük fiyat",
+  "desc": "Tarladan geliyor",
+  "img": "karpuz.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Kavun (adet)",
+  "price": "Günlük fiyat",
+  "desc": "Mevsiminde",
+  "img": "kavun.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Mandalina (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Kış meyvesi",
+  "img": "mandalina.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Yerli mango (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Yerli üretim",
+  "img": "yerli-mango.webp"
+ },
+ {
+  "cat": "Meyve",
+  "name": "Yaban mersini (250 g)",
+  "price": "Günlük fiyat",
+  "desc": "Kutuda",
+  "img": ""
+ },
+ {
+  "cat": "Meyve",
+  "name": "Muz (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Meyve",
+  "name": "Elma (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Meyve",
+  "name": "Limon (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Mini bamya (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Deste başı, çiçek bamya",
+  "img": "mini-bamya.webp"
+ },
+ {
+  "cat": "Sebze",
+  "name": "Taze fasulye (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": "taze-fasulye.webp"
+ },
+ {
+  "cat": "Sebze",
+  "name": "Taze barbunya (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Mevsiminde",
+  "img": "barbunya.webp"
+ },
+ {
+  "cat": "Sebze",
+  "name": "Mısır (adet)",
+  "price": "Günlük fiyat",
+  "desc": "Haşlamalık",
+  "img": "misir.webp"
+ },
+ {
+  "cat": "Sebze",
+  "name": "Domates (kg)",
+  "price": "Günlük fiyat",
+  "desc": "Salatalık ve salçalık",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Salatalık (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Kapya biber (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Patlıcan (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Patates (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Sebze",
+  "name": "Soğan (kg)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Yeşillik",
+  "name": "Maydanoz (demet)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Yeşillik",
+  "name": "Nane (demet)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Yeşillik",
+  "name": "Marul (adet)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ },
+ {
+  "cat": "Şarküteri",
+  "name": "Trabzon tel peyniri (500 g)",
+  "price": "Günlük fiyat",
+  "desc": "Tel örgü",
+  "img": "trabzon-tel-peyniri.webp"
+ },
+ {
+  "cat": "Şarküteri",
+  "name": "Çeçil peyniri (500 g)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": "cecil-peyniri.webp"
+ },
+ {
+  "cat": "Şarküteri",
+  "name": "Otlu Van peyniri (500 g)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": "otlu-van-peyniri.webp"
+ },
+ {
+  "cat": "Şarküteri",
+  "name": "Yumurta (30'lu)",
+  "price": "Günlük fiyat",
+  "desc": "",
+  "img": ""
+ }
+]

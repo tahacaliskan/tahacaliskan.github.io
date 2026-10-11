@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pralin Bakery | Gaziantep Güvenevler Kruvasan, Kahvaltı & Kahve</title>
+<meta name="description" content="Pralin Bakery — Güvenevler'de her gün taze tereyağlı kruvasan, pasta, brunch ve kahve. Margarin yok, sadece kalite. Polis Okulu civarı, Şehitkamil / Gaziantep.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Pralin Bakery","telephone":"+905333170257",
+"address":{"@type":"PostalAddress","streetAddress":"Güvenevler Mah. 29036. Sk. Faik Atak Sitesi E Blok 3","addressLocality":"Şehitkamil","addressRegion":"Gaziantep","postalCode":"27060","addressCountry":"TR"},
+"geo":{"@type":"GeoCoordinates","latitude":37.0892943,"longitude":37.3424459},
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"14"}}
+</script>
+<style>
+:root{--cream:#fbf6ef;--paper:#f4ebdf;--ink:#2b1d14;--mute:#7d6a5c;--rose:#c9837a;--pist:#7e9a5b;--gold:#b88a4a;--line:#e7d9c8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font:16px/1.65 "DM Sans",system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{width:min(1160px,100% - 32px);margin-inline:auto}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.demo{background:var(--ink);color:var(--cream);text-align:center;font-size:12px;padding:8px 12px;letter-spacing:.05em}
+nav{position:sticky;top:0;z-index:50;background:#fbf6efe6;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-family:"Cormorant Garamond";font-size:30px;font-weight:600;letter-spacing:.02em;line-height:1}
+.logo i{font-style:italic;color:var(--rose)}
+.logo small{display:block;font:500 9px "DM Sans";letter-spacing:.38em;color:var(--mute);margin-top:3px}
+.links{display:flex;gap:30px;font-size:14px;color:var(--mute)}
+.links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:600;font-size:15px;transition:.25s}
+.btn-dark{background:var(--ink);color:var(--cream)}
+.btn-dark:hover{background:#4a3324}
+.btn-line{border:1px solid var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--cream)}
+.burger{display:none;background:none;border:0;font-size:26px;color:var(--ink)}
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:50px;align-items:center;padding:60px 0 90px}
+.kicker{display:inline-flex;gap:10px;align-items:center;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--rose);font-weight:600}
+.kicker::before{content:"";width:28px;height:1px;background:var(--rose)}
+.hero h1{font-family:"Cormorant Garamond";font-weight:500;font-size:clamp(50px,7.4vw,98px);line-height:.98;margin:18px 0 22px;letter-spacing:-.01em}
+.hero h1 em{color:var(--rose)}
+.hero p{font-size:18px;color:var(--mute);max-width:470px}
+.hero .cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.hero-img{position:relative}
+.hero-img .main{border-radius:240px 240px 24px 24px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 40px 80px -40px #6b4a3080}
+.hero-img .main img{width:100%;height:100%;object-fit:cover}
+.chip{position:absolute;background:#fff;border-radius:18px;padding:14px 18px;box-shadow:0 20px 40px -20px #6b4a3060;font-size:14px}
+.chip b{font:600 26px "Cormorant Garamond";display:block;line-height:1}
+.chip.c1{left:-28px;bottom:60px}
+.chip.c2{right:-18px;top:50px}
+.stamp{position:absolute;right:20px;bottom:-30px;width:120px;height:120px;animation:spin 22s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* promise */
+.promise{background:var(--ink);color:var(--cream);padding:90px 0;text-align:center}
+.promise blockquote{font-family:"Cormorant Garamond";font-style:italic;font-size:clamp(30px,4.4vw,54px);line-height:1.15;max-width:900px;margin:0 auto}
+.promise .row{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px;text-align:left}
+.promise .row div{border-top:1px solid #ffffff2a;padding-top:18px}
+.promise .row b{font:600 22px "Cormorant Garamond";display:block;margin-bottom:6px;color:#f1c9b9}
+.promise .row p{color:#d8c8b8;font-size:15px}
+section{padding:100px 0}
+.h2{font-family:"Cormorant Garamond";font-weight:500;font-size:clamp(40px,5.4vw,66px);line-height:1;margin:14px 0 16px}
+.lead{color:var(--mute);max-width:560px}
+/* menu */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:36px 0 34px;border-bottom:1px solid var(--line)}
+.tab{background:none;border:0;padding:12px 16px;font:500 15px "DM Sans";color:var(--mute);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.on{color:var(--ink);border-color:var(--rose)}
+.mlist{display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+.mi{padding:20px 0;border-bottom:1px dashed var(--line)}
+.mi h3{font:600 24px "Cormorant Garamond";display:flex;gap:10px;align-items:baseline}
+.mi h3 span{font:600 10px "DM Sans";letter-spacing:.14em;background:#c9837a22;color:var(--rose);padding:3px 8px;border-radius:999px}
+.mi p{color:var(--mute);font-size:14.5px;margin-top:3px}
+.note{color:var(--mute);font-size:13px;margin-top:22px}
+/* fit */
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+.fit .card{background:var(--paper);border-radius:28px;padding:44px;position:relative;overflow:hidden}
+.fit .card.green{background:#e7eedc}
+.fit h3{font:500 38px/1.05 "Cormorant Garamond";margin:12px 0}
+.fit ul{list-style:none;margin-top:20px;display:grid;gap:10px}
+.fit li{display:flex;gap:10px}
+.fit li::before{content:"✦";color:var(--pist)}
+.fit .photo{border-radius:28px;overflow:hidden;min-height:320px}
+.fit .photo img{width:100%;height:100%;object-fit:cover}
+/* gallery */
+.gal{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:240px 240px;gap:14px;margin-top:40px}
+.gal div{border-radius:20px;overflow:hidden}
+.gal div:first-child{grid-row:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:.6s}
+.gal div:hover img{transform:scale(1.05)}
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.rv div{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px}
+.rv p{font:500 21px/1.35 "Cormorant Garamond";font-style:italic}
+.rv small{display:block;margin-top:16px;color:var(--mute)}
+.stars{color:var(--gold);letter-spacing:3px;font-size:14px;margin-bottom:12px}
+/* visit */
+.visit{background:var(--paper);border-radius:36px;padding:56px;display:grid;grid-template-columns:1fr 1.15fr;gap:40px}
+.visit h4{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);margin:22px 0 6px}
+.visit .map{border-radius:24px;overflow:hidden;min-height:360px}
+.visit iframe{width:100%;height:100%;min-height:360px;border:0;filter:sepia(.25) saturate(.9)}
+.open{display:inline-flex;align-items:center;gap:8px;font-size:14px;background:#fff;padding:7px 14px;border-radius:999px;margin-top:6px}
+.open i{width:8px;height:8px;border-radius:50%;background:var(--pist)}
+.open.off i{background:#c55}
+footer{padding:50px 0 110px;text-align:center;color:var(--mute);font-size:14px}
+footer .logo{font-size:40px;margin-bottom:10px}
+.mbar{display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:60;background:#2b1d14f0;border-radius:18px;padding:8px;gap:8px}
+.mbar a{flex:1;text-align:center;color:var(--cream);padding:12px 4px;border-radius:12px;font-weight:600;font-size:14px}
+.mbar a:first-child{background:var(--rose)}
+.reveal{opacity:0;transform:translateY(22px);transition:.9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){
+ .links,.nav-cta{display:none}.burger{display:block}
+ .links.open{display:flex;flex-direction:column;position:absolute;top:72px;left:0;right:0;background:var(--cream);padding:20px 16px;border-bottom:1px solid var(--line);font-size:17px;gap:16px}
+ .hero,.fit,.visit{grid-template-columns:1fr}
+ .hero{padding-top:30px}
+ .chip.c1{left:8px}.chip.c2{right:8px}
+ .promise .row,.rv{grid-template-columns:1fr}
+ .mlist{grid-template-columns:1fr}
+ .gal{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px 160px}
+ .gal div:first-child{grid-column:span 2;grid-row:auto}
+ .visit{padding:28px}
+ .fit .card{padding:30px}
+ section{padding:72px 0}
+ .mbar{display:flex}
+}
+</style>
+</head>
+<body>
+<div class="demo">DEMO TASARIM · Bu site Pralin Bakery için örnek olarak hazırlanmıştır</div>
+<nav><div class="wrap">
+ <a href="#" class="logo">Pralin <i>Bakery</i><small>GAZİANTEP · GÜVENEVLER</small></a>
+ <div class="links" id="links"><a href="#menu">Menü</a><a href="#fit">Fit Menü</a><a href="#galeri">Galeri</a><a href="#yorumlar">Yorumlar</a><a href="#ziyaret">Ziyaret</a></div>
+ <a class="btn btn-dark nav-cta" href="https://wa.me/905333170257?text=Merhaba%2C%20pasta%20sipari%C5%9Fi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Pasta Siparişi</a>
+ <button class="burger" aria-label="Menü" onclick="links.classList.toggle('open')">☰</button>
+</div></nav>
+
+<header class="wrap hero">
+ <div>
+  <span class="kicker">Her sabah taze</span>
+  <h1>Bir kruvasandan <em>çok daha</em> fazlası.</h1>
+  <p>Tereyağlı hamur, sabırla açılan katlar ve antika fincanlarda kahve. Güvenevler'in kalbinde küçük bir Avrupa kaçamağı.</p>
+  <div class="cta"><a href="#menu" class="btn btn-dark">Menüyü Keşfet</a><a href="#ziyaret" class="btn btn-line">Bizi Ziyaret Et</a></div>
+ </div>
+ <div class="hero-img">
+  <div class="main"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1100&q=75" alt="Taze tereyağlı kruvasan"></div>
+  <div class="chip c1"><b>4,9 ★</b>Google puanı</div>
+  <div class="chip c2"><b>%100</b>tereyağı, margarin yok</div>
+  <svg class="stamp" viewBox="0 0 120 120"><defs><path id="c" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><circle cx="60" cy="60" r="58" fill="#c9837a"/><text font-family="DM Sans" font-size="11" font-weight="600" letter-spacing="3.2" fill="#fbf6ef"><textPath href="#c">GÜNLÜK TAZE · KRUVASAN · PASTA · KAHVE ·</textPath></text><text x="60" y="68" text-anchor="middle" font-family="Cormorant Garamond" font-size="26" fill="#fbf6ef">🥐</text></svg>
+ </div>
+</header>
+
+<section class="promise">
+ <div class="wrap">
+  <blockquote class="reveal">“Margarin kokusuna yer yok;<br>sadece kalite ve samimiyet var.”</blockquote>
+  <div class="row">
+   <div class="reveal"><b>Günlük taze</b><p>Kruvasanlarımız her sabah taze hazırlanır, tereyağlı hamurla.</p></div>
+   <div class="reveal"><b>Sakin bir köşe</b><p>Kalabalık zincir kafeler yerine, sohbet edebileceğiniz ferah ve sıcak bir ortam.</p></div>
+   <div class="reveal"><b>Size özel pastalar</b><p>Doğum günü ve kutlamalarınız için siparişe özel pastalar hazırlıyoruz.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="menu" class="wrap">
+ <span class="kicker">Menü</span>
+ <h2 class="h2">Tezgâhta bugün</h2>
+ <p class="lead">Tuzlu kruvasan sandviçlerden Antep'e selam veren katmer kruvasana kadar, sabah kahvaltısından ikindi kahvesine.</p>
+ <div class="tabs" id="tabs">
+  <button class="tab on" data-c="tuzlu">Kruvasan Sandviçler</button>
+  <button class="tab" data-c="tatli">Tatlı Kruvasanlar</button>
+  <button class="tab" data-c="brunch">Kahvaltı & Brunch</button>
+  <button class="tab" data-c="icecek">Kahve & İçecek</button>
+ </div>
+ <div class="mlist" id="mlist"></div>
+ <p class="note">Menü Yemeksepeti'ndeki güncel ürünlerden derlenmiştir. Fiyatlar işletme onayıyla eklenecektir.</p>
+</section>
+
+<section id="fit" class="wrap" style="padding-top:0">
+ <div class="fit">
+  <div class="card green reveal">
+   <span class="kicker" style="color:#5f7a40">Sporculara özel</span>
+   <h3>Protein pankek, yulaf lapası ve fit tabaklar</h3>
+   <p style="color:#5b6b4a">Antrenman sonrası ya da hafif bir sabah için; şekeri dengeli, proteini yüksek seçenekler.</p>
+   <ul><li>Protein Kahvaltı Tabağı: 4 yumurta beyazı + 2 yumurta omlet</li><li>Fit Brunch Tabağı: haşlanmış yumurta, hindi füme, granola</li><li>Protein pankekler, yulaf lapaları ve bowl çeşitleri</li><li>Detox içecekler ve imza mocktailler</li></ul>
+  </div>
+  <div class="photo reveal"><img src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=900&q=70" alt="Meyveli bowl" loading="lazy"></div>
+ </div>
+</section>
+
+<section id="galeri" style="background:var(--paper)">
+ <div class="wrap">
+  <span class="kicker">Galeri</span>
+  <h2 class="h2">Gözle de tadılır</h2>
+  <div class="gal">
+   <div><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900&q=70" alt="Fırından ekmek" loading="lazy"></div>
+   <div><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=70" alt="Latte" loading="lazy"></div>
+   <div><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=70" alt="Çikolatalı pasta" loading="lazy"></div>
+   <div><img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=70" alt="Brunch" loading="lazy"></div>
+   <div><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=70" alt="Tatlı" loading="lazy"></div>
+  </div>
+  <p class="note">* Demo görselleridir; yayına alırken işletmenin kendi fotoğrafları kullanılacaktır.</p>
+ </div>
+</section>
+
+<section id="yorumlar" class="wrap">
+ <span class="kicker">Misafirlerimizden</span>
+ <h2 class="h2">Google'da 4,9 ★</h2>
+ <div class="rv">
+  <div class="reveal"><div class="stars">★★★★★</div><p>“Kahve fincanları tam bir antika pastane havası katmış. Güzel sunumlu, lezzetli kruvasanlar yedik.”</p><small>S. G. · Google yorumu</small></div>
+  <div class="reveal"><div class="stars">★★★★★</div><p>“Sakin, lüksü derinden hissettiren bir ortam. Sporculara uygun menüleri de var.”</p><small>Y. G. · Google yorumu</small></div>
+  <div class="reveal"><div class="stars">★★★★★</div><p>“Arkadaşlarınızla rahatça sohbet edebileceğiniz, kruvasanlarının harika olduğu bu yere mutlaka gelin.”</p><small>G. B. · Google yorumu</small></div>
+ </div>
+</section>
+
+<section id="ziyaret" class="wrap" style="padding-top:0">
+ <div class="visit">
+  <div>
+   <span class="kicker">Ziyaret</span>
+   <h2 class="h2">Polis Okulu<br>civarındayız</h2>
+   <div class="open" id="open"><i></i><span>—</span></div>
+   <h4>Adres</h4><p>Güvenevler Mah. 29036. Sk.<br>Faik Atak Sitesi E Blok 3/C<br>Şehitkamil / Gaziantep</p>
+   <h4>Saatler</h4><p>Pazartesi – Cumartesi · 08:00 – 18:00</p>
+   <h4>Telefon & Sipariş</h4><p><a href="tel:+905333170257">0533 317 02 57</a> · <a href="https://instagram.com/pralinbakery" target="_blank" rel="noopener">@pralinbakery</a></p>
+   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:24px"><a class="btn btn-dark" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=37.0892943,37.3424459">Yol Tarifi</a><a class="btn btn-line" href="https://wa.me/905333170257">WhatsApp</a></div>
+  </div>
+  <div class="map"><iframe loading="lazy" title="Pralin Bakery konum" src="https://www.google.com/maps?q=37.0892943,37.3424459&z=17&output=embed"></iframe></div>
+ </div>
+</section>
+
+<footer><div class="logo">Pralin <i style="color:var(--rose)">Bakery</i></div>© 2026 Pralin Bakery · Güvenevler, Gaziantep</footer>
+
+<div class="mbar"><a href="https://wa.me/905333170257">💬 Sipariş</a><a href="tel:+905333170257">📞 Ara</a><a href="https://www.google.com/maps/dir/?api=1&destination=37.0892943,37.3424459">📍 Yol</a></div>
+
+<script>
+const M={
+ tuzlu:[["Sade Kruvasan","Her gün özenle hazırlanan tereyağlı, çıtır kruvasan."],["Üç Peynirli Kruvasan","Labne, kaşar ve cheddar; kıvırcık marul ile."],["Hindi Fümeli Kruvasan","Labne, hindi füme, cheddar ve kaşar."],["Akdenizli Kruvasan","Labne, çeçil peyniri, sote kırmızı biber ve ceviz.","İMZA"],["Avokadolu Yumurtalı Kruvasan","Guacamole, çırpılmış yumurta ve labne."],["Somon Füme Kruvasan","Labne, avokado, somon füme ve dereotu."],["New Mexico Hot Kruvasan","Özel sos, tavuk, jalapeno ve kaşar."],["Kuşkonmazlı Kruvasan","Izgara kuşkonmaz, dana jambon, limon aioli, yumurta."]],
+ tatli:[["Katmer Kruvasan","Pastacı kreması ve bol fıstık ezmesi — Antep'e selam olsun.","ANTEP"],["Dubai Kruvasan","Belçika çikolatası, kavrulmuş kadayıf, Antep fıstığı kreması.","ÇOK SATAN"],["Bademli Kruvasan","Badem kreması, file badem, pudra şekeri."],["Lotuslu Kruvasan","Lotus kreması, muz ve Lotus kırıntıları."],["Limoncello Kruvasan","Limon aromalı krema, beyaz çikolata."],["Orman Meyveli Kruvasan","Taze orman meyveleri ve yumuşak krema."],["Kremalı Çilekli Kruvasan","Pastacı kreması, muz ve çilek."],["Muzlu Karamelli Kruvasan","Karamel, pastacı kreması ve muz."]],
+ brunch:[["Kruvasanlı Kahvaltı Tabağı","Kruvasan, omlet, peynir, zeytin salatası, lütenitsa ve reçel."],["Avokadolu Brunch Tabağı","Çırpılmış yumurta ve avokado; mantarlı açık kruvasan."],["İtalyan Brunch","Pesto, caprese, mozzarella; diğer yarısında labne ve kuru domates."],["Hem Tatlı Hem Tuzlu","Orman meyveli labne ile guacamole & yumurta bir arada.","FAVORİ"],["Egg & Mushroom","Kremalı mantar, çörek otlu omlet ve dana füme."],["Pratik Kahvaltı Tabağı","Omlet, salata, guacamole, peynir ve tam tahıllı ekmek."]],
+ icecek:[["Sıcak Kahveler","Espresso bazlı klasikler ve filtre kahve — 16 çeşit."],["Soğuk Kahveler","Iced latte'den cold brew'a 8 çeşit."],["İmza Mocktailler","Mevsim meyveleriyle 15 farklı alkolsüz kokteyl.","İMZA"],["Detox İçecekler","Taze, hafif ve ferahlatıcı 5 tarif."],["Pastalar","Oreolu cheesecake dahil 29 çeşit dilim pasta."],["Siparişe Özel Pasta","Doğum günü ve kutlamalar için önceden sipariş."]]
+};
+const L=document.getElementById('mlist');
+const show=c=>L.innerHTML=M[c].map(([n,d,t])=>`<div class="mi"><h3>${n}${t?`<span>${t}</span>`:''}</h3><p>${d}</p></div>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');show(b.dataset.c)});
+show('tuzlu');
+(()=>{const n=new Date(),d=n.getDay(),h=n.getHours()+n.getMinutes()/60,o=d!==0&&h>=8&&h<18,el=document.getElementById('open');el.classList.toggle('off',!o);el.querySelector('span').textContent=o?'Şu an açık · 18:00\'e kadar':'Şu an kapalı · 08:00\'de açılır'})();
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('#links a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+</script>
+</body>
+</html>
