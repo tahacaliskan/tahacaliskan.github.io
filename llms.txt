@@ -8,7 +8,20 @@
 - Konum: Gaziantep, Türkiye
 - Site: https://calisqa.com/
 
+## Fiyat
+- Tek paket "Çalışan Site": 14.900 TL, KDV dahil, tek seferlik. Ücretsiz demosu hazırlanan işletmelere lansman fiyatı 9.900 TL (en geç 31 Aralık 2026).
+- Dahil: 5 sayfaya kadar site, 150 ürüne kadar menü, sepet ve WhatsApp sipariş (komisyonsuz), rezervasyon ve talep formları, QR menü (yıllık ücret yok), marka kiti, SEO ve GEO, Google İşletme Profili, 1 yıl alan adı + barındırma + SSL.
+- Aylık ya da yıllık bakım ücreti yok. 1 yıl sonunda alan adı ve dosyalar işletmeye devredilir ya da yalnızca alan adı yenileme bedeliyle devam edilir.
+- Ekler: ek dil 3.900 TL, ek sayfa 1.500 TL, logo 3.900 TL, online ödeme 9.900 TL, e-ticaret 24.900 TL'den, AirviewTR menü fotoğrafı 6.900 TL.
+- Ayrıntı: https://calisqa.com/fiyatlar
+
+## Ücretsiz demo
+- Gaziantep'teki işletmelere, kendi menü ve fotoğraflarıyla ücretsiz ve yükümlülüksüz demo web sitesi: https://calisqa.com/ucretsiz-demo
+
 ## Hizmetler
+- [Restoran web sitesi](https://calisqa.com/restoran-web-sitesi)
+- [WhatsApp sipariş sistemi](https://calisqa.com/whatsapp-siparis-sistemi)
+- [QR menü](https://calisqa.com/qr-menu)
 - İşletme web siteleri (restoran, kafe, pastane, manav, hizmet işletmeleri)
 - WhatsApp sipariş, masa ve grup rezervasyonu, talep formları
 - SEO ve GEO (schema.org, site haritası, llms.txt, açık cevaplı içerik)
@@ -24,24 +37,27 @@
 - [İletişim](https://calisqa.com/iletisim)
 
 ## Çalışmalar (demo siteler, Gaziantep Güvenevler)
-- [Usta Tavacı](https://calisqa.com/demo/usta-tavaci/): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
-- [Namık Baydar Sofrası](https://calisqa.com/demo/namik-baydar-sofrasi/): Antep ev yemekleri lokantası, 6 sayfa. Türkçe ve İngilizce lezzet rehberi; 350 kişilik salon için grup rezervasyon formu; 56 ürünlük menü ve WhatsApp sipariş; Dama karo desenli marka kiti
-- [Pralin Bakery](https://calisqa.com/demo/pralin-bakery/): Pastane ve kahvaltı, 5 sayfa. 136 ürünlük menü, 15 kategori; Kutlama pastası sipariş formu; Ahududu, fıstık ve karamel renk sistemi; Dantel fistonlu desen dili
-- [Akla Restaurant](https://calisqa.com/demo/akla-restaurant/): Restoran, kahvaltı ve canlı müzik, 5 sayfa. Masa rezervasyon formu; Haftalık sahne ve etkinlik takvimi; Kahvaltıdan geceye günün saatleri; İncir yaprağı desenli marka kiti
-- [Sofdağı Manav](https://calisqa.com/demo/sofdagi-manav/): Manav ve market, 4 sayfa. Günlük fiyatlı ürün listesi ve sepet; Gel al ya da adrese teslim seçimi; Manav tentesi ve domates sırası deseni; Reyon kısayolları
-- [Birecik Sofrası](https://calisqa.com/demo/birecik-sofrasi/): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
+- [Usta Tavacı](https://calisqa.com/usta-tavaci-web-sitesi): Tava ve kebap restoranı, 5 sayfa. 52 ürünlük menü, arama ve kategori filtresi; Sepet ve WhatsApp sipariş, paket servis adresiyle; Toplu sipariş talep formu; Saate göre canlı açık / kapalı durumu
+- [Namık Baydar Sofrası](https://calisqa.com/namik-baydar-sofrasi-web-sitesi): Antep ev yemekleri lokantası, 6 sayfa. Türkçe ve İngilizce lezzet rehberi; 350 kişilik salon için grup rezervasyon formu; 56 ürünlük menü ve WhatsApp sipariş; Dama karo desenli marka kiti
+- [Pralin Bakery](https://calisqa.com/pralin-bakery-web-sitesi): Pastane ve kahvaltı, 5 sayfa. 136 ürünlük menü, 15 kategori; Kutlama pastası sipariş formu; Ahududu, fıstık ve karamel renk sistemi; Dantel fistonlu desen dili
+- [Akla Restaurant](https://calisqa.com/akla-restaurant-web-sitesi): Restoran, kahvaltı ve canlı müzik, 5 sayfa. Masa rezervasyon formu; Haftalık sahne ve etkinlik takvimi; Kahvaltıdan geceye günün saatleri; İncir yaprağı desenli marka kiti
+- [Sofdağı Manav](https://calisqa.com/sofdagi-manav-web-sitesi): Manav ve market, 4 sayfa. Günlük fiyatlı ürün listesi ve sepet; Gel al ya da adrese teslim seçimi; Manav tentesi ve domates sırası deseni; Reyon kısayolları
+- [Birecik Sofrası](https://calisqa.com/birecik-sofrasi-web-sitesi): Kebap ve katmer, 1998'den beri, 4 sayfa. "Kapatmadık, taşındık" yeni adres duyurusu; Paket servis menüsü ve WhatsApp sipariş; Yemek kartı bilgileri; Kilim desenli marka kiti
 
 ## Sık sorulan sorular
+- Web sitesi fiyatı ne kadar? Tek paket, tek fiyat: 14.900 TL (KDV dahil, tek seferlik). Ücretsiz demosu hazırlanan işletmelere 9.900 TL. Menü, WhatsApp sipariş, rezervasyon, QR menü, marka kiti, SEO ve GEO ile 1 yıl alan adı ve barındırma dahil; aylık ücret yok.
 - Calisqa nedir, calisqa.com kimin sitesi? calisqa.com, Gaziantep merkezli web tasarım ve yazılım stüdyosu Calisqa Software'in resmî web sitesidir. Calisqa, Taha Çalışkan tarafından kuruldu; adı yazımı Calisqa'dır (çalışkan değil).
 - Calisqa Software nedir? Calisqa Software, Gaziantep merkezli bir web tasarım ve yazılım stüdyosudur. İşletmeler için sipariş alan, rezervasyon toplayan, WhatsApp ile çalışan ve Google ile yapay zekâ aramalarında bulunan web siteleri kurar. Kurucusu Taha Çalışkan'dır.
 - Calisqa hangi hizmetleri veriyor? İşletme web siteleri, menü ve ürün katalogları, WhatsApp sipariş ve rezervasyon akışları, işletmeye özel marka kiti, SEO ve GEO (yapay zekâ arama optimizasyonu), yayına alma ve bakım.
 - "Çalışan site" ne demek? Butonları gerçekten iş gören site demek: sepet siparişi WhatsApp mesajına dönüştürür, formlar eksik bilgiyi yakalar, çalışma saatine göre "şu an açık" yazar, harita yol tarifi verir ve site Google'da bulunur. Görüntüden ibaret bir broşür değil.
 - WhatsApp sipariş nasıl çalışıyor? Müşteri menüden ürünleri sepete ekler, adını ve gerekiyorsa adresini yazar. Site siparişi ürün, adet, tahmini tutar ve adresle hazır bir mesaja dönüştürür ve işletmenin WhatsApp hattını açar. Aracı platform ve komisyon yoktur.
 - SEO ve GEO nedir, neden önemli? SEO, sitenin Google aramalarında üst sıralarda çıkması için yapılan çalışmadır. GEO (Generative Engine Optimization) ise ChatGPT, Gemini, Perplexity ve Google yapay zekâ özetleri gibi asistanların işletmenizi doğru tanıması ve önermesi içindir. Calisqa sitelerinde yapılandırılmış veri (schema.org), açık cevaplı içerik, site haritası ve llms.txt dosyası standart olarak bulunur.
-- Fiyatlar nasıl belirleniyor? Sayfa sayısına, sipariş ve rezervasyon gibi özelliklere, içerik ve fotoğraf hazırlığına ve bakım ihtiyacına göre. İhtiyacınızı yazın, kapsamı netleştirip size özel bir teklif hazırlayalım.
-- Web sitesi ne kadar sürede hazır olur? Süre kapsama göre değişir. Teklifle birlikte net bir takvim veriyoruz; çoğu zaman önce işletmeye özel bir demo hazırlayıp üzerinden birlikte ilerliyoruz.
+- Web sitesi ne kadar sürede hazır olur? Önce işletmenize özel ücretsiz bir demo hazırlıyoruz; menü ve fotoğraflar hazırsa demo birkaç gün içinde gelir. Onayınızdan sonra alan adı, Google İşletme Profili ve QR menüyle birlikte yayına alınır.
 - Instagram'daki fotoğraflarımız kullanılabilir mi? Evet, izninizle. Demolarımızda işletmelerin kendi Instagram fotoğraflarını ve gerçek menülerini kullandık; stok fotoğraf yerine kendi görselleriniz siteyi daha güvenilir yapar.
 - Alan adı ve yayına alma kısmını siz mi yapıyorsunuz? Alan adı seçiminde, bağlanmasında ve sitenin yayına alınmasında yardımcı oluyoruz. Süreç boyunca ne yapıldığını adım adım paylaşıyoruz.
-- Menü, fiyat ya da saat değişince ne olacak? Değişiklikleri bize iletmeniz yeterli; sitenizi güncel tutuyoruz. İhtiyaca göre kendi düzenleyebileceğiniz yapılar da kurulabilir.
-- Calisqa ile AirviewTR arasındaki bağ nedir? Calisqa Software ve AirviewTR'ın kurucusu Taha Çalışkan'dır. AirviewTR, drone çekimi ve video prodüksiyon stüdyosudur (airviewtr.com).
+- Menü, fiyat ya da saat değişince ne olacak? Değişiklikleri WhatsApp'tan iletmeniz yeterli; ilk yıl içindeki küçük güncellemeleri ücretsiz yapıyoruz.
+- Calisqa ile AirviewTR arasındaki bağ nedir? Calisqa Software ve AirviewTR'ın kurucusu Taha Çalışkan'dır. AirviewTR, video prodüksiyon ajansıdur (airviewtr.com).
 - Hangi şehirlerde hizmet veriyorsunuz? Gaziantep merkezliyiz. Çevrimiçi görüşmelerle farklı şehirlerdeki işletmelerle de çalışabiliyoruz.
+- Ücretsiz demo nedir? Gaziantep'teki işletmenize özel, kendi menünüz ve fotoğraflarınızla bir web sitesi demosu hazırlayıp size bir bağlantı olarak gönderiyoruz. Ücretsiz ve yükümlülüksüzdür; beğenirseniz yayına alınır.
+- Aylık ya da yıllık ücret var mı? Yok. Ödeme tek seferliktir. İlk yılın alan adı ve barındırması dahildir; yıl sonunda alan adı ve dosyalar işletmeye devredilir ya da yalnızca alan adı yenileme bedeliyle devam edilir.
+- QR menü yapıyor musunuz? Evet. QR menü sitenizdeki menüye bağlıdır ve pakete dahildir; yıllık ücret yoktur.
