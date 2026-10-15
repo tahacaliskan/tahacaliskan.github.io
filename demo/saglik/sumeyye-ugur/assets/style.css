@@ -459,6 +459,10 @@ main,footer{overflow-x:clip}
 [data-yon="editoryal"] .strip{border-color:var(--ink)} [data-yon="editoryal"] .strip span{font-style:italic;font-weight:400;color:var(--ink)} [data-yon="editoryal"] .strip span::after{content:"º6";width:auto;height:auto;background:none;color:var(--accent);font-style:normal;font-size:16px;border-radius:0}
 [data-yon="editoryal"] footer .big{font-size:clamp(40px,8vw,120px);padding-bottom:.1em}
 
+.ed-nav .rt .tel{white-space:nowrap}
+@media (max-width:1280px){ .ed-nav .rt .tel{display:none} .ed-nav .lk{gap:20px} }
+.ed-nav .wm{overflow:hidden;text-overflow:ellipsis;max-width:32vw}
+
 /* ===== Tema anahtarı, kalıcı üst bar, demo etiketi ===== */
 .tema-b{flex:none;width:40px;height:40px;border-radius:50%;border:0;cursor:pointer;display:grid;place-items:center;font-size:18px;
   background:var(--surface-2);color:var(--ink);transition:transform .5s var(--ease2),background .3s,color .3s}
