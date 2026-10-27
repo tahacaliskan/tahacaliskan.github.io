@@ -223,3 +223,10 @@ matchMedia('(hover: hover)').matches && $$('.btn-pri').forEach(b => {
 // sayfa içi bağlantılar yumuşak kaysın
 $$('a[href^="#"]').forEach(a => a.addEventListener('click', e => { const id = a.getAttribute('href'); if (id.length < 2) return; const el = $(id); if (!el) return; e.preventDefault(); lenis.scrollTo(el, { offset: -20, duration: 1.4 }); }));
 })();
+
+/* imza şeridi görününce demo etiketini gizle */
+(() => {
+  const cr = document.querySelector('.credit'), ds = document.querySelector('.demo-serit');
+  if (!cr || !ds || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(([e]) => ds.classList.toggle('gizli', e.isIntersecting), { rootMargin: '0px 0px 40px 0px' }).observe(cr);
+})();
