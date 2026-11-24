@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ne İzlesek? – Hafif Komediler</title>
+<style>
+:root{
+  --bg:#0e0f14; --panel:#171922; --panel2:#1f2230; --text:#eceef5; --muted:#9aa0b4;
+  --accent:#ffb020; --accent2:#ff5d73; --ok:#3ecf8e; --radius:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:28px 20px 8px;max-width:1200px;margin:0 auto}
+h1{margin:0 0 4px;font-size:clamp(1.6rem,4vw,2.4rem);letter-spacing:-.02em}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:0}
+.bar{position:sticky;top:0;z-index:5;background:linear-gradient(var(--bg) 85%,transparent);padding:14px 20px 10px;max-width:1200px;margin:0 auto}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.chip{border:1px solid #2c3042;background:var(--panel);color:var(--text);padding:7px 13px;border-radius:999px;font-size:.9rem;cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent);color:#17120a;border-color:var(--accent);font-weight:600}
+.sep{width:1px;height:22px;background:#2c3042;margin:0 4px}
+input[type=search]{flex:1;min-width:180px;background:var(--panel);border:1px solid #2c3042;color:var(--text);padding:9px 14px;border-radius:999px;font-size:.95rem}
+input[type=search]:focus{outline:2px solid var(--accent);border-color:transparent}
+.rand{background:var(--accent2);color:#fff;border:0;padding:9px 16px;border-radius:999px;font-weight:700;cursor:pointer}
+.rand:hover{filter:brightness(1.1)}
+.count{color:var(--muted);font-size:.85rem;margin-left:auto}
+main{max-width:1200px;margin:0 auto;padding:6px 20px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:18px}
+.card{background:var(--panel);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;border:1px solid #232637;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-3px);border-color:#3a4060}
+.poster{position:relative;aspect-ratio:2/3;background:var(--panel2);overflow:hidden}
+.poster img{width:100%;height:100%;object-fit:cover;display:block}
+.fallback{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:14px;font-weight:800;font-size:1.15rem;line-height:1.15}
+.fallback small{font-weight:500;opacity:.8;margin-top:6px}
+.badge{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.65);backdrop-filter:blur(4px);padding:3px 8px;border-radius:8px;font-size:.75rem}
+.seenmark{position:absolute;top:8px;right:8px;background:var(--ok);color:#06210f;font-weight:800;border-radius:8px;padding:3px 8px;font-size:.75rem;display:none}
+.card.seen .seenmark{display:block}
+.card.seen .poster img,.card.seen .fallback{filter:grayscale(.8) brightness(.6)}
+.info{padding:12px 12px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.title{font-weight:700;font-size:1rem;line-height:1.2}
+.meta{color:var(--muted);font-size:.8rem}
+.desc{font-size:.85rem;color:#c5c9d8;flex:1}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+.btn{font-size:.78rem;padding:6px 10px;border-radius:8px;border:1px solid #2c3042;background:var(--panel2);color:var(--text);text-decoration:none;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.on{background:var(--ok);color:#06210f;border-color:var(--ok);font-weight:700}
+.btn.list.on{background:var(--accent);color:#17120a;border-color:var(--accent)}
+.empty{text-align:center;color:var(--muted);padding:60px 0}
+dialog{border:0;border-radius:18px;background:var(--panel);color:var(--text);padding:0;max-width:min(680px,94vw);width:100%}
+dialog::backdrop{background:rgba(0,0,0,.7)}
+.dlg{display:flex;gap:18px;padding:20px;flex-wrap:wrap}
+.dlg .poster{width:210px;border-radius:12px;flex:none}
+.dlg .txt{flex:1;min-width:220px;display:flex;flex-direction:column;gap:10px}
+.dlg h2{margin:0}
+.close{position:absolute;top:10px;right:14px;background:none;border:0;color:var(--muted);font-size:1.6rem;cursor:pointer}
+footer{max-width:1200px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:.8rem}
+@media(max-width:520px){.grid{grid-template-columns:repeat(2,1fr);gap:12px}.sep{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Ne <span>İzlesek?</span></h1>
+  <p class="sub">Hafif tonlu, aile ve 16 yaş için uygun, canlı oyunculu komediler. Filtrele, seç, izle.</p>
+</header>
+
+<div class="bar">
+  <div class="row" id="regionRow"></div>
+  <div class="row" id="catRow"></div>
+  <div class="row">
+    <input type="search" id="q" placeholder="Film ara..." aria-label="Film ara">
+    <div id="showRow" class="row" style="margin:0"></div>
+    <button class="rand" id="rand">🎲 Bana bir film seç</button>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>Bu filtreyle film bulunamadı.</div>
+</main>
+
+<footer>
+  Yaş derecelendirmeleri, açıklamalar ve platform bilgileri doğrulanmadı; izlemeden önce kontrol edin.
+  "Nerede izlenir" düğmesi JustWatch Türkiye'de arama açar. Afişler Vikipedi'den yüklenir; bulunamazsa renkli kart görünür.
+</footer>
+
+<dialog id="dlg"></dialog>
+
+<script>
+/* ---------- Veri ---------- */
+// g: yeni(2023+) | aksiyon | okul | is | aile   ·  r: us | eu
+const F = [];
+function m(t,y,c,r,g,d,w){F.push({id:F.length,t,y,c,r,g,d,w});}
+
+// 2026
+m("The Breadwinner",2026,"ABD","us",["yeni","aile"],"Nate Bargatze ve Mandy Moore'lu komedi, şu an vizyonda.","The Breadwinner 2026 film");
+m("Coyote vs. Acme",2026,"ABD","us",["yeni","aile"],"2026'nın en iyi komedileri listelerinde. Canlı oyuncularla CGI karışık.","Coyote vs. Acme film");
+m("The Sheep Detectives",2026,"ABD","us",["yeni","aile"],"Komedi ve gizem, 109 dakika.","The Sheep Detectives 2026 film");
+// 2025
+m("Back in Action",2025,"ABD","us",["yeni","aksiyon"],"Cameron Diaz ve Jamie Foxx'lu aksiyon komedisi (Netflix).");
+m("Nonnas",2025,"ABD","us",["yeni","is"],"Vince Vaughn'lu, bir restoranı büyükannelerin işlettiği sıcak komedi (Netflix).","Nonnas 2025 film");
+m("Freakier Friday",2025,"ABD","us",["yeni","aile"],"Freaky Friday'in devamı, nesiller arası beden değiştirme komedisi.");
+m("A Minecraft Movie",2025,"ABD","us",["yeni","aile"],"Jack Black ve Jason Momoa'lı absürt macera komedisi.");
+m("Lilo & Stitch",2025,"ABD","us",["yeni","aile"],"Canlı oyunculu versiyon, hem komik hem duygusal.","Lilo & Stitch 2025 film");
+m("Heads of State",2025,"ABD","us",["yeni","aksiyon"],"John Cena ve Idris Elba'lı aksiyon komedisi (Prime Video).");
+// 2021-2024
+m("Free Guy",2021,"ABD","us",["aksiyon","aile"],"Oyun dünyasında geçen hızlı ve esprili film.");
+m("The Fall Guy",2024,"ABD","us",["yeni","aksiyon"],"Ryan Gosling ve Emily Blunt'lı kaskadör hikâyesi, aksiyon ve romantik komedi.");
+m("Family Switch",2023,"ABD","us",["yeni","aile"],"Aile bedenlerini değiştiriyor, hafif komedi (Netflix).");
+m("Dungeons & Dragons: Honor Among Thieves",2023,"ABD","us",["yeni","aksiyon","aile"],"Esprili macera ekip filmi (Paramount+).","Dungeons & Dragons: Honor Among Thieves film");
+m("Barbie",2023,"ABD","us",["yeni","aile"],"Gençlere ve ebeveynlere hitap eden renkli komedi.","Barbie 2023 film");
+m("Wonka",2023,"ABD","us",["yeni","aile"],"Müzikli, tatlı bir fantezi komedisi.","Wonka 2023 film");
+m("Ghosted",2023,"ABD","us",["yeni","aksiyon"],"Chris Evans ve Ana de Armas, aksiyon ve romantik komedi (Apple TV+).");
+m("The Union",2024,"ABD","us",["yeni","aksiyon"],"Mark Wahlberg ve Halle Berry'li casusluk komedisi (Netflix).","The Union 2024 film");
+m("Murder Mystery 2",2023,"ABD","us",["yeni","aksiyon"],"Adam Sandler ve Jennifer Aniston, yeni bir cinayet gizemi (Netflix).");
+// Aksiyon komedi
+m("The Lost City",2022,"ABD","us",["aksiyon"],"Sandra Bullock ve Channing Tatum bir orman macerasına düşüyor.");
+m("Red Notice",2021,"ABD","us",["aksiyon"],"Dwayne Johnson, Ryan Reynolds ve Gal Gadot'lu hırsızlık ve kovalamaca (Netflix).");
+m("Central Intelligence",2016,"ABD","us",["aksiyon"],"Dwayne Johnson ve Kevin Hart, muhasebeci ile gizli ajan karışıklığı.");
+m("The Man from Toronto",2022,"ABD","us",["aksiyon"],"Kevin Hart ve Woody Harrelson, yanlış kişiyle karıştırılan adam (Netflix).");
+m("Jungle Cruise",2021,"ABD","us",["aksiyon","aile"],"Dwayne Johnson ve Emily Blunt'lı orman macerası (Disney+).");
+m("Jumanji: Welcome to the Jungle",2017,"ABD","us",["aksiyon","aile"],"Oyunun içine girip mücadele eden gençler.");
+m("Murder Mystery",2019,"ABD","us",["aksiyon"],"Adam Sandler ve Jennifer Aniston'lı cinayet komedisi (Netflix).","Murder Mystery 2019 film");
+// Okul
+m("Mean Girls",2024,"ABD","us",["yeni","okul"],"Lisede popülerlik savaşları, müzikal versiyon.","Mean Girls 2024 film");
+m("Mean Girls",2004,"ABD","us",["okul"],"Lisede popülerlik savaşlarının orijinali.","Mean Girls 2004 film");
+m("Easy A",2010,"ABD","us",["okul"],"Dedikodu yüzünden okulda şöhret kazanan öğrenci. Bazı espriler yetişkin tonlu.");
+m("The DUFF",2015,"ABD","us",["okul"],"Arkadaş grubunun en sönük kızı etiketiyle uğraşan lise öğrencisi.","The Duff 2015 film");
+m("Pitch Perfect",2012,"ABD","us",["okul"],"Üniversitede a cappella grupları, müzikli ve komik.");
+m("Love, Simon",2018,"ABD","us",["okul"],"Sıcak bir lise komedisi, gizemli bir e-posta arkadaşı etrafında.");
+m("Moxie",2021,"ABD","us",["okul"],"Okuldaki haksızlıklara karşı çıkan kızlar, hafif komedi-drama (Netflix).");
+m("To All the Boys I've Loved Before",2018,"ABD","us",["okul"],"Lise romantik komedisi (Netflix).","To All the Boys I've Loved Before film");
+m("Night School",2018,"ABD","us",["okul","is"],"Kevin Hart ve Tiffany Haddish, yetişkinler için gece okulu. Biraz kaba espriler var.");
+// İş / ofis
+m("The Internship",2013,"ABD","us",["is"],"Vince Vaughn ve Owen Wilson, Google'da stajyer olan iki yaşlı satış elemanı.");
+m("The Intern",2015,"ABD","us",["is"],"Robert De Niro ve Anne Hathaway, yaşlı bir adam genç bir şirkette staja başlıyor.","The Intern 2015 film");
+m("The Devil Wears Prada",2006,"ABD","us",["is"],"Moda dergisinde zor bir patronla çalışmak.");
+m("The Proposal",2009,"ABD","us",["is"],"Sandra Bullock ve Ryan Reynolds, patron ile asistanı sahte evlilik yapıyor.");
+m("Hitch",2005,"ABD","us",["is"],"Will Smith, ilişki danışmanı olarak çalışıyor.");
+// Avrupa
+m("Johnny English",2003,"İngiltere","eu",["aksiyon","aile"],"Rowan Atkinson'lı beceriksiz ajan parodisi, aile dostu.");
+m("Taxi",1998,"Fransa","eu",["aksiyon"],"Süper hızlı taksici ve sakar polis, kovalamaca komedisi.","Taxi 1998 film Luc Besson");
+m("Mr. Bean's Holiday",2007,"İngiltere","eu",["aile"],"Mr. Bean tatile çıkıyor, konuşma az, macera çok.");
+m("Fack ju Göhte",2013,"Almanya","eu",["okul"],"Eski bir hırsız öğretmen oluyor. Çok komik ama dili biraz sert.","Fack ju Göhte 2013 film");
+m("Le Petit Nicolas",2009,"Fransa","eu",["okul","aile"],"Okul çağı çocuk komedisi, hafif ve tatlı.","Le Petit Nicolas film 2009");
+m("Bienvenue chez les Ch'tis",2008,"Fransa","eu",["is"],"Postane müdürü kuzeye sürülüyor, Fransa'nın en çok izlenen komedilerinden.","Welcome to the Sticks 2008 film");
+m("Le Dîner de cons",1998,"Fransa","eu",["is"],"Bir yemek sofrası komedisi, bir iş arkadaşıyla ilgili.","The Dinner Game 1998 film");
+m("Intouchables",2011,"Fransa","eu",["aile"],"Felçli zengin adam ve bakıcısı, hem komik hem sıcak.","Intouchables 2011 film");
+m("Qu'est-ce qu'on a fait au Bon Dieu?",2014,"Fransa","eu",["aile"],"Farklı kültürlerden damatlarla gelen aile komedisi.","Serial (Bad) Weddings 2014 film");
+m("Paddington",2014,"İngiltere","eu",["aile"],"Çocuk filmi gibi görünse de yetişkinlere de keyifli.","Paddington 2014 film");
+m("Paddington 2",2017,"İngiltere","eu",["aile"],"Birincisinden de komik, çok sevilen devam filmi.","Paddington 2 2017 film");
+m("Ocho apellidos vascos",2014,"İspanya","eu",["aile"],"Bask ve Endülüslü bir çiftin komedisi.","Spanish Affair 2014 film");
+m("Campeones",2018,"İspanya","eu",["aile"],"Zihinsel engelli bir basketbol takımına koçluk yapan adam. Komik ve sıcak.","Champions 2018 Spanish film");
+
+/* ---------- Durum ---------- */
+const CATS=[["hepsi","Hepsi"],["yeni","Yeni (2023+)"],["aksiyon","Aksiyon komedi"],["okul","Okul"],["is","İş / ofis"],["aile","Aile"]];
+const REGIONS=[["hepsi","Hepsi"],["us","Amerikan"],["eu","Avrupa"]];
+const SHOWS=[["hepsi","Tümü"],["liste","Listem"],["izlenmedi","İzlenmedi"],["izlendi","İzlendi"]];
+const KEY="filmler:v1", PKEY="filmler:posters:v1";
+const st={region:"hepsi",cat:"hepsi",show:"hepsi",q:""};
+
+function load(k,def){try{return JSON.parse(localStorage.getItem(k))||def}catch(e){return def}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+let user=load(KEY,{seen:{},list:{}});
+let posters=load(PKEY,{});
+const key=f=>f.t+"|"+f.y;
+
+/* ---------- Filtre arayüzü ---------- */
+function chips(el,arr,prop){
+  el.innerHTML="";
+  arr.forEach(([v,l])=>{
+    const b=document.createElement("button");
+    b.className="chip";b.textContent=l;b.setAttribute("aria-pressed",st[prop]===v);
+    b.onclick=()=>{st[prop]=v;chips(el,arr,prop);render()};
+    el.appendChild(b);
+  });
+}
+chips(document.getElementById("regionRow"),REGIONS,"region");
+chips(document.getElementById("catRow"),CATS,"cat");
+chips(document.getElementById("showRow"),SHOWS,"show");
+document.getElementById("q").oninput=e=>{st.q=e.target.value.trim().toLowerCase();render()};
+
+function filtered(){
+  return F.filter(f=>{
+    if(st.region!=="hepsi"&&f.r!==st.region)return false;
+    if(st.cat!=="hepsi"&&!f.g.includes(st.cat))return false;
+    if(st.q&&!(f.t+" "+f.d+" "+f.c).toLowerCase().includes(st.q))return false;
+    const k=key(f);
+    if(st.show==="liste"&&!user.list[k])return false;
+    if(st.show==="izlendi"&&!user.seen[k])return false;
+    if(st.show==="izlenmedi"&&user.seen[k])return false;
+    return true;
+  });
+}
+
+/* ---------- Afiş yükleme ---------- */
+const queue=[];let active=0;
+function fetchPoster(f){
+  return new Promise(res=>{queue.push({f,res});pump()});
+}
+function pump(){
+  while(active<4&&queue.length){
+    const {f,res}=queue.shift();active++;
+    getPoster(f).then(res).finally(()=>{active--;pump()});
+  }
+}
+async function getPoster(f){
+  const k=key(f);
+  if(k in posters)return posters[k];
+  const q=f.w||(f.t+" "+f.y+" film");
+  try{
+    // 1) en.wikipedia'da filmin sayfasını bul  2) sayfa özetinden afişi al
+    const r=await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srnamespace=0&srlimit=1&format=json&origin=*&srsearch="+encodeURIComponent(q));
+    if(!r.ok)return "";
+    const j=await r.json();
+    const hit=j.query&&j.query.search&&j.query.search[0];
+    let src="";
+    if(hit){
+      const s=await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/"+encodeURIComponent(hit.title.replace(/ /g,"_")));
+      if(!s.ok)return "";
+      const d=await s.json();
+      src=(d.thumbnail&&d.thumbnail.source)||"";
+    }
+    posters[k]=src;save(PKEY,posters);
+    return src;
+  }catch(e){return ""}
+}
+const io=new IntersectionObserver(es=>{
+  es.forEach(e=>{
+    if(!e.isIntersecting)return;
+    io.unobserve(e.target);
+    const box=e.target,f=F[+box.dataset.id];
+    fetchPoster(f).then(src=>setPoster(box,src));
+  });
+},{rootMargin:"300px"});
+function setPoster(box,src){
+  if(!src)return;
+  const img=new Image();img.alt=box.dataset.title;img.loading="lazy";
+  img.onload=()=>{const fb=box.querySelector(".fallback");if(fb)fb.remove();box.prepend(img)};
+  img.src=src;
+}
+function hue(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))%360;return h}
+function posterBox(f){
+  const box=document.createElement("div");box.className="poster";box.dataset.id=f.id;box.dataset.title=f.t;
+  const h=hue(f.t);
+  box.innerHTML=`<div class="fallback" style="background:linear-gradient(160deg,hsl(${h} 55% 30%),hsl(${(h+50)%360} 60% 14%))">${esc(f.t)}<small>${f.y}</small></div>`;
+  return box;
+}
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---------- Kartlar ---------- */
+function links(f){
+  const jw="https://www.justwatch.com/tr/arama?q="+encodeURIComponent(f.t);
+  const yt="https://www.youtube.com/results?search_query="+encodeURIComponent(f.t+" "+f.y+" fragman");
+  return `<a class="btn" href="${jw}" target="_blank" rel="noopener">▶ Nerede izlenir</a><a class="btn" href="${yt}" target="_blank" rel="noopener">Fragman</a>`;
+}
+function actionBtns(f){
+  const k=key(f);
+  return `<button class="btn list ${user.list[k]?"on":""}" data-act="list" data-id="${f.id}">${user.list[k]?"★ Listemde":"☆ Listeme ekle"}</button>
+          <button class="btn ${user.seen[k]?"on":""}" data-act="seen" data-id="${f.id}">${user.seen[k]?"✓ İzledim":"İzledim"}</button>`;
+}
+function card(f){
+  const k=key(f);
+  const el=document.createElement("article");
+  el.className="card"+(user.seen[k]?" seen":"");
+  const box=posterBox(f);
+  box.insertAdjacentHTML("beforeend",`<span class="badge">${esc(f.c)}</span><span class="seenmark">İZLENDİ</span>`);
+  el.appendChild(box);
+  const info=document.createElement("div");info.className="info";
+  info.innerHTML=`<div class="title">${esc(f.t)}</div><div class="meta">${f.y} · ${esc(f.c)}</div><div class="desc">${esc(f.d)}</div><div class="btns">${links(f)}</div><div class="btns">${actionBtns(f)}</div>`;
+  el.appendChild(info);
+  io.observe(box);
+  return el;
+}
+function render(){
+  const list=filtered();
+  const g=document.getElementById("grid");g.innerHTML="";
+  list.forEach(f=>g.appendChild(card(f)));
+  document.getElementById("empty").hidden=list.length>0;
+  document.getElementById("count").textContent=list.length+" film";
+}
+document.getElementById("grid").addEventListener("click",e=>{
+  const b=e.target.closest("[data-act]");if(!b)return;
+  toggle(F[+b.dataset.id],b.dataset.act);
+});
+function toggle(f,act){
+  const k=key(f),map=act==="seen"?user.seen:user.list;
+  if(map[k])delete map[k];else map[k]=1;
+  save(KEY,user);render();
+}
+
+/* ---------- Rastgele seçim ---------- */
+const dlg=document.getElementById("dlg");
+function pick(){
+  let pool=filtered().filter(f=>!user.seen[key(f)]);
+  if(!pool.length)pool=filtered();
+  if(!pool.length){return}
+  showFilm(pool[Math.floor(Math.random()*pool.length)]);
+}
+function showFilm(f){
+  const box=posterBox(f);
+  dlg.innerHTML=`<button class="close" aria-label="Kapat">×</button><div class="dlg"><div id="dposter"></div><div class="txt">
+    <h2>${esc(f.t)}</h2><div class="meta">${f.y} · ${esc(f.c)}</div><p class="desc">${esc(f.d)}</p>
+    <div class="btns">${links(f)}</div><div class="btns">${actionBtns(f)}</div>
+    <div class="btns"><button class="btn" id="again">🎲 Başka birini seç</button></div></div></div>`;
+  dlg.querySelector("#dposter").replaceWith(box);
+  fetchPoster(f).then(src=>setPoster(box,src));
+  dlg.querySelector(".close").onclick=()=>dlg.close();
+  dlg.querySelector("#again").onclick=pick;
+  dlg.querySelectorAll("[data-act]").forEach(b=>b.onclick=()=>{toggle(f,b.dataset.act);showFilm(f)});
+  if(!dlg.open)dlg.showModal();
+}
+document.getElementById("rand").onclick=pick;
+dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+
+render();
+</script>
+</body>
+</html>
