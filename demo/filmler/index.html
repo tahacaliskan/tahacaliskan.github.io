@@ -160,7 +160,7 @@ m("Campeones",2018,"İspanya","eu",["aile"],"Zihinsel engelli bir basketbol tak�
 const CATS=[["hepsi","Hepsi"],["yeni","Yeni (2023+)"],["aksiyon","Aksiyon komedi"],["okul","Okul"],["is","İş / ofis"],["aile","Aile"]];
 const REGIONS=[["hepsi","Hepsi"],["us","Amerikan"],["eu","Avrupa"]];
 const SHOWS=[["hepsi","Tümü"],["liste","Listem"],["izlenmedi","İzlenmedi"],["izlendi","İzlendi"]];
-const KEY="filmler:v1", PKEY="filmler:posters:v1";
+const KEY="filmler:v1", PKEY="filmler:posters:v2";
 const st={region:"hepsi",cat:"hepsi",show:"hepsi",q:""};
 
 function load(k,def){try{return JSON.parse(localStorage.getItem(k))||def}catch(e){return def}}
@@ -239,7 +239,7 @@ const io=new IntersectionObserver(es=>{
 },{rootMargin:"300px"});
 function setPoster(box,src){
   if(!src)return;
-  const img=new Image();img.alt=box.dataset.title;img.loading="lazy";
+  const img=new Image();img.alt=box.dataset.title;img.referrerPolicy="no-referrer";
   img.onload=()=>{const fb=box.querySelector(".fallback");if(fb)fb.remove();box.prepend(img)};
   img.src=src;
 }
