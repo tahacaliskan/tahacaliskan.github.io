@@ -203,31 +203,35 @@ function fetchPoster(f){
   return new Promise(res=>{queue.push({f,res});pump()});
 }
 function pump(){
-  while(active<4&&queue.length){
+  while(active<3&&queue.length){
     const {f,res}=queue.shift();active++;
     getPoster(f).then(res).finally(()=>{active--;pump()});
   }
+}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function getJSON(url){
+  for(let i=0;i<4;i++){
+    try{const r=await fetch(url);if(r.ok)return await r.json();if(r.status===404)return null}catch(e){}
+    await sleep(1500*(i+1)); // 429 / ağ hatası: biraz bekleyip tekrar dene
+  }
+  return undefined;
 }
 async function getPoster(f){
   const k=key(f);
   if(k in posters)return posters[k];
   const q=f.w||(f.t+" "+f.y+" film");
-  try{
-    // 1) en.wikipedia'da filmin sayfasını bul  2) sayfa özetinden afişi al
-    const r=await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srnamespace=0&srlimit=1&format=json&origin=*&srsearch="+encodeURIComponent(q));
-    if(!r.ok)return "";
-    const j=await r.json();
-    const hit=j.query&&j.query.search&&j.query.search[0];
-    let src="";
-    if(hit){
-      const s=await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/"+encodeURIComponent(hit.title.replace(/ /g,"_")));
-      if(!s.ok)return "";
-      const d=await s.json();
-      src=(d.thumbnail&&d.thumbnail.source)||"";
-    }
-    posters[k]=src;save(PKEY,posters);
-    return src;
-  }catch(e){return ""}
+  // 1) en.wikipedia'da filmin sayfasını bul  2) sayfa özetinden afişi al
+  const j=await getJSON("https://en.wikipedia.org/w/api.php?action=query&list=search&srnamespace=0&srlimit=1&format=json&origin=*&srsearch="+encodeURIComponent(q));
+  if(j===undefined)return "";
+  const hit=j&&j.query&&j.query.search&&j.query.search[0];
+  let src="";
+  if(hit){
+    const d=await getJSON("https://en.wikipedia.org/api/rest_v1/page/summary/"+encodeURIComponent(hit.title.replace(/ /g,"_")));
+    if(d===undefined)return "";
+    src=(d&&d.thumbnail&&d.thumbnail.source)||"";
+  }
+  posters[k]=src;save(PKEY,posters);
+  return src;
 }
 const io=new IntersectionObserver(es=>{
   es.forEach(e=>{
